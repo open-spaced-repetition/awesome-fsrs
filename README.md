@@ -17,8 +17,6 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
   - Scheduler (v5): [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs)
 - Go
   - Scheduler (v5): [go-fsrs](https://github.com/open-spaced-repetition/go-fsrs)
-- JavaScript
-  - Scheduler (v4): [fsrs.js](https://github.com/open-spaced-repetition/fsrs.js)
 - Dart
   - Scheduler (v4.5): [dart-fsrs](https://github.com/open-spaced-repetition/dart-fsrs)
 - Swift
