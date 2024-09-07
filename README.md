@@ -51,7 +51,7 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
   Multiplatform note-taking application with flashcard creation in single click. Has an active community with student-made exam materials on various topics. Available for offline and online usage.
 
-  RemNote integrated FSRS v4.5 to its scheduling system starting from [RemNote 1.16](https://feedback.remnote.com/changelog/remnote-1-16-ultimate-spaced-repetition).
+  RemNote integrated FSRS-4.5 to its scheduling system starting from [RemNote 1.16](https://feedback.remnote.com/changelog/remnote-1-16-ultimate-spaced-repetition).
 
 - #### Obsidian (https://obsidian.md/)
 
@@ -65,7 +65,7 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
   Mobile and web chess repertoire study application, combining multiple sources from YouTube, Lichess, ChessBase, and books to create a custom personal chess repertoire.
 
-  Chessbook overhauled its spaced repetition system using FSRS v4.5 and saw [20-30% cut down on reviews count](https://x.com/chessbookcom/status/1805137108991946775).
+  Chessbook overhauled its spaced repetition system [using FSRS-4.5](https://x.com/chessbookcom/status/1805137108991946775).
 
 ## Related
 
