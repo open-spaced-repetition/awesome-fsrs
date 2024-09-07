@@ -30,7 +30,7 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 - Elixir
   - Scheduler (v4): [ex_fsrs](https://github.com/open-spaced-repetition/ex_fsrs)
 
-## Applications
+## Application
 
 ### Flashcard
 
