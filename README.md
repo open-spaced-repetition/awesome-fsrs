@@ -38,7 +38,8 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
   Free and open source content-agnostic flashcard application for Windows, Mac, Linux, iPhone, and Android. Supports images, audio, videos, and scientific markup (via LaTex). Offers free synchronization service using AnkiWeb, with community shared add-ons and decks.
 
-  FSRS available as opt-in feature replacing the default SM-2 algorithm.
+  - FSRS available as an opt-in feature replacing the default SM-2 algorithm.
+  - In addition to feature metioned above, this [add-on](https://ankiweb.net/shared/info/759844606) helps with reshedule, postpone, advance, and balance cards, as well as enabling Easy Days scheduling, among other features.
 
 - #### MaiMemo (https://www.maimemo.com/)
 
@@ -49,6 +50,8 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 - #### RemNote (https://www.remnote.com/)
 
   Multiplatform note-taking application with flashcard creation in single click. Has an active community with student-made exam materials on various topics. Available for offline and online usage.
+
+  RemNote integrated FSRS v4.5 to its scheduling system starting from [RemNote 1.16](https://feedback.remnote.com/changelog/remnote-1-16-ultimate-spaced-repetition).
 
 - #### Obsidian (https://obsidian.md/)
 
@@ -61,6 +64,8 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 - #### Chessbook (https://chessbook.com/)
 
   Mobile and web chess repertoire study application, combining multiple sources from YouTube, Lichess, ChessBase, and books to create a custom personal chess repertoire.
+
+  Chessbook overhauled its spaced repetition system using FSRS v4.5 and saw [20-30% cut down on reviews count](https://x.com/chessbookcom/status/1805137108991946775).
 
 ## Related
 
