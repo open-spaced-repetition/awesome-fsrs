@@ -36,31 +36,31 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
 - #### Anki (https://apps.ankiweb.net/)
 
-  Free and open source content-agnostic flashcard application for Windows, Mac, Linux, iPhone, and Android. Supports images, audio, videos, and scientific markup (via LaTex). Offers free synchronization service using AnkiWeb, with community shared add-ons and decks.
+  Free and open source, highly customizable flashcard application for Windows, Mac, Linux, iPhone, and Android. Supports text, images, audio, videos, and scientific markup (via LaTex). Offers free synchronization service using AnkiWeb, with community-shared add-ons and decks.
 
   - FSRS available as an opt-in feature replacing the default SM-2 algorithm.
-  - In addition to feature metioned above, this [add-on](https://ankiweb.net/shared/info/759844606) helps with reshedule, postpone, advance, and balance cards, as well as enabling Easy Days scheduling, among other features.
+  - Additionally, this [add-on](https://ankiweb.net/shared/info/759844606) offers a variety of extra features, such as Postpone, Advance, Load Balancing and Easy Days.
 
 
 ### Note-taking
 
 - #### RemNote (https://www.remnote.com/)
 
-  Multiplatform note-taking application with flashcard creation in single click. Has an active community with student-made exam materials on various topics. Available for offline and online usage.
+  Multiplatform note-taking application with a simple and streamlined process of creating flashcards. Has an active community with student-made materials for exam preparation. Available for offline and online usage.
 
-  RemNote integrated FSRS-4.5 to its scheduling system starting from [RemNote 1.16](https://feedback.remnote.com/changelog/remnote-1-16-ultimate-spaced-repetition).
+  RemNote integrated FSRS-4.5 into its scheduling system in [release 1.16](https://feedback.remnote.com/changelog/remnote-1-16-ultimate-spaced-repetition).
 
 - #### Obsidian (https://obsidian.md/)
 
-  A personal notes, journaling, knowledge base, and project managament application with graph view and canvas diagram note. Connect your notes via hyperlinks and install many community plugins made for Obsidian.
+  A personal notes, journaling, knowledge base, and project management application that allows the user to easily visualize relationships between information in graph form. Connect your notes via hyperlinks and install many community plugins made for Obsidian.
 
-  FSRS available as extension for Obsidian: [obsidian-spaced-repetition-recall](https://github.com/open-spaced-repetition/obsidian-spaced-repetition-recall).
+  FSRS is available as an extension for Obsidian: [obsidian-spaced-repetition-recall](https://github.com/open-spaced-repetition/obsidian-spaced-repetition-recall).
 
 ### Others
 
 - #### Chessbook (https://chessbook.com/)
 
-  Mobile and web chess repertoire study application, combining multiple sources from YouTube, Lichess, ChessBase, and books to create a custom personal chess repertoire.
+  Mobile and web chess study application that combines multiple resources from YouTube, Lichess, ChessBase, and books to create a custom personal chess repertoire.
 
   Chessbook overhauled its spaced repetition system [using FSRS-4.5](https://x.com/chessbookcom/status/1805137108991946775).
 
@@ -77,11 +77,11 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
 - #### Leitner System
 
-  Leitner sytem sorts flashcard into groups according to how well the learner knows each one in Leitner's learning box. The learners try to recall the solution written on a flashcard. If they succeed, they send the card to the next group. If they fail, they send it back to the first group. Each succeeding group has a longer period before the learner is required to revisit the cards. (More: [Wikipedia](https://en.wikipedia.org/wiki/Leitner_system))
+  Leitner sytem sorts flashcard into groups according to how well the learner knows each one in Leitner's learning box. The learners try to recall the answer written on a flashcard. If they succeed, the card is sent to the next box. If they fail, the card is sent back to the first box. In each successive box, the amount of time before the learner is required to revisit the cards increases. (More: [Wikipedia](https://en.wikipedia.org/wiki/Leitner_system))
 
 - #### SuperMemo algorithms
 
-  SuperMemo is the first software to apply computer-based spaced repetition algorithm.
+  SuperMemo was the first software that used computer-based spaced repetition algorithms and pioneered the usage of machine learning to personalize each user's learning schedule.
 
   - SM-0: [The birthday of spaced repetition: July 31, 1985](https://supermemo.guru/wiki/The_birthday_of_spaced_repetition:_July_31,_1985)
   - SM-2: [Application of a computer to improve the results obtained in working with SuperMemo method](https://super-memory.com/english/ol/sm2.htm)
@@ -99,7 +99,7 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
 - #### Duolingo's Half-Life Regression algorithm
 
-  An algorithm made particularily for second langauge acquisitions. The model marries psycholinguistic theory with modern machine learning techniques, indirectly estimating the "half-life" of words (and potentially any other item or fact) in a student's long-term memory.
+  An algorithm made particularly for second language acquisition. The HLR model marries psycholinguistic theory with modern machine learning techniques, estimating the "half-life" of words (and potentially any other item or fact) in a student's long-term memory.
 
   - GitHub repository: [duolingo/halflife-regression](https://github.com/duolingo/halflife-regression)
   - Paper: [A Trainable Spaced Repetition Model for Language Learning](https://github.com/duolingo/halflife-regression/blob/master/settles.acl16.pdf)
