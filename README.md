@@ -41,9 +41,6 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
   - FSRS available as an opt-in feature replacing the default SM-2 algorithm.
   - In addition to feature metioned above, this [add-on](https://ankiweb.net/shared/info/759844606) helps with reshedule, postpone, advance, and balance cards, as well as enabling Easy Days scheduling, among other features.
 
-- #### MaiMemo (https://www.maimemo.com/)
-
-  Chinese mobile flashcard application for studying English.
 
 ### Note-taking
 
