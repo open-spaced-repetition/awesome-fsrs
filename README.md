@@ -36,11 +36,10 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
 - #### Anki (https://apps.ankiweb.net/)
 
-  Free and open source, highly customizable flashcard application for Windows, Mac, Linux, iPhone, and Android. Supports text, images, audio, videos, and scientific markup (via LaTex). Offers free synchronization service using AnkiWeb, with community-shared add-ons and decks.
+  Free and open source, content-agnostic flashcard application for Windows, Mac, Linux, iPhone, and Android. Supports text, images, audio, videos, and scientific markup (via LaTex). Offers free synchronization service using AnkiWeb, with community-shared add-ons and decks.
 
   - FSRS available as an opt-in feature replacing the default SM-2 algorithm.
   - Additionally, this [add-on](https://ankiweb.net/shared/info/759844606) offers a variety of extra features, such as Postpone, Advance, Load Balancing and Easy Days.
-
 
 ### Note-taking
 
