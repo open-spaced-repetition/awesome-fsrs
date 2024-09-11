@@ -34,7 +34,7 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
 ### Flashcard
 
-- #### Anki (https://apps.ankiweb.net/)
+ #### [Anki](https://apps.ankiweb.net/)
 
   Free and open source, content-agnostic flashcard application for Windows, Mac, Linux, iPhone, and Android. Supports text, images, audio, videos, and scientific markup (via LaTex). Offers free synchronization service using AnkiWeb, with community-shared add-ons and decks.
 
@@ -43,13 +43,13 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
 ### Note-taking
 
-- #### RemNote (https://www.remnote.com/)
+ #### [RemNote](https://www.remnote.com/)
 
   Multiplatform note-taking application with a simple and streamlined process of creating flashcards. Has an active community with student-made materials for exam preparation. Available for offline and online usage.
 
   RemNote integrated FSRS-4.5 into its scheduling system in [release 1.16](https://feedback.remnote.com/changelog/remnote-1-16-ultimate-spaced-repetition).
 
-- #### Obsidian (https://obsidian.md/)
+ #### [Obsidian](https://obsidian.md/)
 
   A personal notes, journaling, knowledge base, and project management application that allows the user to easily visualize relationships between information in graph form. Connect your notes via hyperlinks and install many community plugins made for Obsidian.
 
@@ -57,7 +57,7 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
 ### Others
 
-- #### Chessbook (https://chessbook.com/)
+ #### [Chessbook](https://chessbook.com/)
 
   Mobile and web chess study application that combines multiple resources from YouTube, Lichess, ChessBase, and books to create a custom personal chess repertoire.
 
@@ -67,18 +67,18 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
 ### Algorithm
 
-- #### FSRS
+ #### FSRS
 
   - Paper: [A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling | Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining](https://dl.acm.org/doi/10.1145/3534678.3539081?cid=99660547150)
   - Paper: [Optimizing Spaced Repetition Schedule by Capturing the Dynamics of Memory | IEEE Journals & Magazine | IEEE Xplore](https://ieeexplore.ieee.org/document/10059206)
   - Dataset: [open-spaced-repetition/FSRS-Anki-20k · Datasets at Hugging Face](https://huggingface.co/datasets/open-spaced-repetition/FSRS-Anki-20k)
   - Benchmark: [open-spaced-repetition/srs-benchmark: A benchmark for spaced repetition schedulers/algorithms (github.com)](https://github.com/open-spaced-repetition/srs-benchmark)
 
-- #### Leitner System
+ #### Leitner System
 
   Leitner sytem sorts flashcard into groups according to how well the learner knows each one in Leitner's learning box. The learners try to recall the answer written on a flashcard. If they succeed, the card is sent to the next box. If they fail, the card is sent back to the first box. In each successive box, the amount of time before the learner is required to revisit the cards increases. (More: [Wikipedia](https://en.wikipedia.org/wiki/Leitner_system))
 
-- #### SuperMemo algorithms
+ #### SuperMemo algorithms
 
   SuperMemo was the first software that used computer-based spaced repetition algorithms and pioneered the usage of machine learning to personalize each user's learning schedule.
 
@@ -87,16 +87,16 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
   - SM-5: [First fast-converging spaced repetition algorithm: Algorithm SM-5](https://supermemo.guru/wiki/First_fast-converging_spaced_repetition_algorithm:_Algorithm_SM-5)
   - SM-17: [Algorithm SM-17](https://supermemo.guru/wiki/Algorithm_SM-17)
 
-- #### ACT-R
+ #### ACT-R
 
   - Paper: [An ACT-R Model of the Spacing Effect](http://act-r.psy.cmu.edu/wordpress/wp-content/themes/ACT-R/workshops/2003/proceedings/46.pdf)
 
-- #### DASH
+ #### DASH
 
   - Paper: [Probabilistic Models of Student Learning and Forgetting Public Deposited](https://scholar.colorado.edu/concern/graduate_thesis_or_dissertations/zp38wc97m)
   - Paper: [Memory Models for Spaced Repetition Systems](https://www.politesi.polimi.it/retrieve/b39227dd-0963-40f2-a44b-624f205cb224/2022_4_Randazzo_01.pdf)
 
-- #### Duolingo's Half-Life Regression algorithm
+ #### Duolingo's Half-Life Regression algorithm
 
   An algorithm made particularly for second language acquisition. The HLR model marries psycholinguistic theory with modern machine learning techniques, estimating the "half-life" of words (and potentially any other item or fact) in a student's long-term memory.
 
