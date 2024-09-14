@@ -57,9 +57,9 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
  #### [SiYuan](https://github.com/siyuan-note/siyuan)
 
-  SiYuan is a privacy-first personal knowledge management system, support fine-grained block-level reference and Markdown WYSIWYG. A privacy-first, self-hosted, fully open source personal knowledge management software, written in TypeScript and Golang.
+  SiYuan is a privacy-first, self-hosted, open source personal knowledge management system, written in TypeScript and Golang. It supports fine-grained block-level reference and markdown WYSIWYG.
 
-  SiYuan's spaced repetition system is currently supported by FSRS-5: [riff](https://github.com/siyuan-note/riff)
+  SiYuan's uses FSRS-5: [riff](https://github.com/siyuan-note/riff)
 
 ### Others
 
