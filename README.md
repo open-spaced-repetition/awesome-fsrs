@@ -55,6 +55,12 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
   FSRS is available as an extension for Obsidian: [obsidian-spaced-repetition-recall](https://github.com/open-spaced-repetition/obsidian-spaced-repetition-recall).
 
+#### [SiYuan](https://github.com/siyuan-note/siyuan)
+
+  SiYuan is a privacy-first personal knowledge management system, support fine-grained block-level reference and Markdown WYSIWYG. A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.
+
+  SiYuan's spaced repetition system is currently supported by FSRS-5: [riff](https://github.com/siyuan-note/riff)
+
 ### Others
 
  #### [Chessbook](https://chessbook.com/)
