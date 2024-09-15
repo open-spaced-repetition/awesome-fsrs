@@ -61,11 +61,11 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
   SiYuan's uses FSRS-5: [riff](https://github.com/siyuan-note/riff)
 
-#### [TiddlyWiki](https://github.com/TiddlyWiki/TiddlyWiki5) 
+ #### [TiddlyWiki](https://github.com/TiddlyWiki/TiddlyWiki5) 
 
-TiddlyWiki is a customizable single HTML file personal wiki for creating interlinked notes. Its open-source nature and plugin ecosystem make it adaptable for various uses, from project management to knowledge systems. With the FSRS plugin, TiddlyWiki can also be used as a flashcard app for learning and memorization.
+  TiddlyWiki is a customizable single HTML file personal wiki for creating interlinked notes. Its open-source nature and plugin ecosystem make it adaptable for various uses, from project management to knowledge systems. With the FSRS plugin, TiddlyWiki can also be used as a flashcard app for learning and memorization.
 
-FSRS is available as a fork of the Tidme plugin for TiddlyWiki:: [fsrs4tw](https://github.com/open-spaced-repetition/fsrs4tw)
+  FSRS is available as a fork of the Tidme plugin for TiddlyWiki:: [fsrs4tw](https://github.com/open-spaced-repetition/fsrs4tw)
 
 ### Others
 
