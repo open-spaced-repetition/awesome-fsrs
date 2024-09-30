@@ -8,15 +8,23 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
 - Python
   - Scheduler (v5): [py-fsrs](https://github.com/open-spaced-repetition/py-fsrs)
+  - Scheduler (v5): [rs-fsrs-python](https://github.com/open-spaced-repetition/rs-fsrs-python)
   - Optimizer: [fsrs-optimizer](https://github.com/open-spaced-repetition/fsrs-optimizer)
   - [Deprecated] Optimizer: [fsrs-optimizer-tiny](https://github.com/open-spaced-repetition/fsrs-optimizer-tiny)
 - Rust
+  - Scheduler (v5): [rs-fsrs](https://github.com/open-spaced-repetition/rs-fsrs)
   - Scheduler (v5) + Optimizer: [fsrs-rs](https://github.com/open-spaced-repetition/fsrs-rs)
     - Run in browsers: [fsrs-browser](https://github.com/open-spaced-repetition/fsrs-browser)
 - TypeScript
   - Scheduler (v5): [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs)
 - Go
   - Scheduler (v5): [go-fsrs](https://github.com/open-spaced-repetition/go-fsrs)
+- Java
+  - Scheduler (v5): [rs-fsrs-java](https://github.com/open-spaced-repetition/rs-fsrs-java)
+- C
+  - Scheduler (v5): [rs-fsrs-c](https://github.com/open-spaced-repetition/rs-fsrs-c)
+- Nodejs
+  - Scheduler (v5): [rs-fsrs-nodejs](https://github.com/open-spaced-repetition/rs-fsrs-nodejs)
 - Dart
   - Scheduler (v4.5): [dart-fsrs](https://github.com/open-spaced-repetition/dart-fsrs)
 - Swift
