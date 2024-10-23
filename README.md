@@ -83,6 +83,12 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
   Chessbook overhauled its spaced repetition system [using FSRS-4.5](https://x.com/chessbookcom/status/1805137108991946775).
 
+ #### [WordVault](https://aerolith.org/wordvault/)
+
+  WordVault is a word study app for Scrabble/Boggle/other word games. It [uses the Go FSRS library](https://github.com/open-spaced-repetition/go-fsrs) for scheduling words, which show up as scrambled letters for the user to solve. This should hopefully be significally more efficient than the Leitner cardbox system previously in use in some word study apps.
+
+  See [announcement blog post](https://cesardelsolar.com/posts/2024-10-13-wordvault/).
+
 ## Related
 
 ### Algorithm
