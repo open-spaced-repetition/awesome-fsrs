@@ -90,6 +90,12 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
   See [announcement blog post](https://cesardelsolar.com/posts/2024-10-13-wordvault/).
 
+ #### [LeetFlash](https://leetflash.com/)
+
+  LeetFlash is a flashcard review app for review LeetCode algorithm questions. It leverages TS-FSRS for scheduling flashcards.
+
+  The app consists of a Chrome extension, website for now. A mobile app is under development. It can automatically capture LeetCode question submissions and schedule your next review using an Anki-like experience. It supports both Leetcode and Leetcode China (力扣).
+
 ## Related
 
 ### Algorithm
