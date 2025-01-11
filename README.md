@@ -16,6 +16,7 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
   - Scheduler (v5): [rs-fsrs](https://github.com/open-spaced-repetition/rs-fsrs)
   - Scheduler (v5) + Optimizer: [fsrs-rs](https://github.com/open-spaced-repetition/fsrs-rs)
     - Run in browsers: [fsrs-browser](https://github.com/open-spaced-repetition/fsrs-browser)
+    - A tiny implementation: [Implementing FSRS in 100 Lines](https://borretti.me/article/implementing-fsrs-in-100-lines)
 - TypeScript
   - Scheduler (v5): [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs)
 - Go
