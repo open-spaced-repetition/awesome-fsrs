@@ -7,7 +7,7 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 ## Implementation
 
 - Python
-  - Scheduler (v5): [py-fsrs](https://github.com/open-spaced-repetition/py-fsrs)
+  - Scheduler (v5) + Optimizer: [py-fsrs](https://github.com/open-spaced-repetition/py-fsrs)
   - Scheduler (v5): [rs-fsrs-python](https://github.com/open-spaced-repetition/rs-fsrs-python)
   - Optimizer: [fsrs-optimizer](https://github.com/open-spaced-repetition/fsrs-optimizer)
   - Optimizer: [fsrs-rs-python](https://github.com/open-spaced-repetition/fsrs-rs-python)
