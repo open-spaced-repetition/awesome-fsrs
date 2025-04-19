@@ -102,6 +102,12 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
   The app consists of a Chrome extension, website for now. A mobile app is under development. It can automatically capture LeetCode question submissions and schedule your next review using an Anki-like experience. It supports both Leetcode and Leetcode China (力扣).
 
+#### [SpacedCards](https://spacedcards.app)
+
+  SpacedCards is an iOS flashcard app which forces students to review cards to unlock scrolltime. It works offline, is customizable & has AI for generating cards (images, audio or PDFs). 
+
+  SpacedCards uses [dart-fsrs]([https://github.com/open-spaced-repetition/ts-fsrs](https://github.com/open-spaced-repetition/dart-fsrs)).
+
 ## Related
 
 ### Algorithm
