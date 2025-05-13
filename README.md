@@ -52,7 +52,7 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
 #### [Rember](https://www.rember.com/)
 
-  A simple yet powerful spaced repetition system designed to help you remember more. It uses AI to automatically generate cards and FSRS v5 to schedule your reviews.
+  A simple yet powerful spaced repetition system designed to help you remember more. It uses AI to automatically generate cards and FSRS-5 to schedule your reviews.
 
   Rember uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs).
 
