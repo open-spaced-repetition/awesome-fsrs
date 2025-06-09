@@ -74,6 +74,12 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
   FSRS is available as an extension for Obsidian: [obsidian-spaced-repetition-recall](https://github.com/open-spaced-repetition/obsidian-spaced-repetition-recall).
 
+#### [Logseq](https://logseq.com/)
+
+  A privacy-first, open-source platform for knowledge management and collaboration. It focuses on privacy, longevity, and user control.
+
+  Logseq uses [cljc-fsrs](https://github.com/open-spaced-repetition/cljc-fsrs) in its database version.
+
 #### [SiYuan](https://github.com/siyuan-note/siyuan)
 
   SiYuan is a privacy-first, self-hosted, open source personal knowledge management system, written in TypeScript and Golang. It supports fine-grained block-level reference and markdown WYSIWYG.
