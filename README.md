@@ -40,6 +40,8 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
   - Scheduler (v4): [ex_fsrs](https://github.com/open-spaced-repetition/ex_fsrs)
 - OCaml
   - Scheduler (v5): [ocaml-fsrs](https://github.com/chaosarium/ocaml-fsrs)
+- Lisp
+  - Scheduler (v6): [lisp-fsrs](https://github.com/open-spaced-repetition/lisp-fsrs)
 
 ## Application
 
