@@ -47,6 +47,12 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
 ### Flashcard
 
+#### [Markji](https://www.markji.com/)
+
+  Markji is a flashcard application designed to help users efficiently memorize and retain information. It's particularly popular for language learning, exam preparation, and other memorization-heavy subjects. The app is developed by MaiMemo Inc., the company also behind the popular Chinese vocabulary app, [MaiMemo](https://www.maimemo.com/).
+
+- Markji uses the MMX algorithm, a variant of FSRS developed by the same creator.
+
 #### [Anki](https://apps.ankiweb.net/)
 
   Free and open source, content-agnostic flashcard application for Windows, Mac, Linux, iPhone, and Android. Supports text, images, audio, videos, and scientific markup (via LaTex). Offers free synchronization service using AnkiWeb, with community-shared add-ons and decks.
