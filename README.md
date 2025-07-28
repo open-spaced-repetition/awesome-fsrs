@@ -66,6 +66,16 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
   Rember uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs).
 
+#### [Mochi Cards](https://mochi.cards/)
+
+  **Mochi Cards** is a modern, Markdown‑powered flashcard app available on Web, Desktop (Windows/macOS/Linux), and Mobile (iOS/Android).  
+
+- Use **Markdown** to create flexible, multi‑sided flashcards and notes  
+- Create links between cards and notes, embed images/audio/video, cloze deletions  
+- Study using **Spaced Repetition** and optional **FSRS algorithm** for smarter scheduling  
+- Offline‑first by default; sync securely across devices with a **Pro** subscription  
+- Import Anki decks or export `.mochi` packages for backup and sharing
+
 ### Note-taking
 
 #### [RemNote](https://www.remnote.com/)
