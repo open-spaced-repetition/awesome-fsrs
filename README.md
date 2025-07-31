@@ -68,12 +68,12 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
 #### [Mochi Cards](https://mochi.cards/)
 
-  **Mochi Cards** is a modern, Markdown‑powered flashcard app available on Web, Desktop (Windows/macOS/Linux), and Mobile (iOS/Android).  
+  **Mochi Cards** is a modern, Markdown-powered flashcard app available on Web, Desktop (Windows/macOS/Linux), and Mobile (iOS/Android).  
 
-- Use **Markdown** to create flexible, multi‑sided flashcards and notes  
+- Use **Markdown** to create flexible, multi-sided flashcards and notes  
 - Create links between cards and notes, embed images/audio/video, cloze deletions  
 - Study using **Spaced Repetition** and optional **FSRS algorithm** for smarter scheduling  
-- Offline‑first by default; sync securely across devices with a **Pro** subscription  
+- Offline-first by default; sync securely across devices with a **Pro** subscription  
 - Import Anki decks or export `.mochi` packages for backup and sharing
 
 ### Note-taking
@@ -88,9 +88,9 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
   A personal notes, journaling, knowledge base, and project management application that allows the user to easily visualize relationships between information in graph form. Connect your notes via hyperlinks and install many community plugins made for Obsidian.
 
-  FSRS is available as an extension for Obsidian: [obsidian-spaced-repetition-recall](https://github.com/open-spaced-repetition/obsidian-spaced-repetition-recall).
+  - [obsidian-spaced-repetition-recall](https://github.com/open-spaced-repetition/obsidian-spaced-repetition-recall) is a modified version of obsidian-spaced-repetition and merging recall plugin to use seperate json data file. It uses FSRS-6.
 
-  [HiNote](https://github.com/CatMuse/HiNote) is a powerful Obsidian extension that helps you add comments to highlighted notes, use AI for thinking, and FSRS for memory.
+  - [HiNote](https://github.com/CatMuse/HiNote) is a powerful Obsidian extension that helps you add comments to highlighted notes, use AI for thinking, and FSRS-6 for memory.
 
 #### [Logseq](https://logseq.com/)
 
