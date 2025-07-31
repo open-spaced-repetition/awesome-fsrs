@@ -90,6 +90,8 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
   FSRS is available as an extension for Obsidian: [obsidian-spaced-repetition-recall](https://github.com/open-spaced-repetition/obsidian-spaced-repetition-recall).
 
+  [HiNote](https://github.com/CatMuse/HiNote) is a powerful Obsidian extension that helps you add comments to highlighted notes, use AI for thinking, and FSRS for memory.
+
 #### [Logseq](https://logseq.com/)
 
   A privacy-first, open-source platform for knowledge management and collaboration. It focuses on privacy, longevity, and user control.
