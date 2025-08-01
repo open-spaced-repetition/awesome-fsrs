@@ -35,6 +35,7 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 - Ruby
   - Scheduler (v4): [rb-fsrs](https://github.com/open-spaced-repetition/rb-fsrs)
 - Kotlin
+  - Scheduler (v6): [FSRS-Kotlin](https://github.com/open-spaced-repetition/FSRS-Kotlin)
   - Scheduler (v4): [android-fsrs](https://github.com/open-spaced-repetition/android-fsrs)
 - Elixir
   - Scheduler (v4): [ex_fsrs](https://github.com/open-spaced-repetition/ex_fsrs)
