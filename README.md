@@ -46,13 +46,7 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
 ## Application
 
-### Flashcard
-
-#### [Markji](https://www.markji.com/)
-
-  Markji is a flashcard application designed to help users efficiently memorize and retain information. It's particularly popular for language learning, exam preparation, and other memorization-heavy subjects. The app is developed by MaiMemo Inc., the company also behind the popular Chinese vocabulary app, [MaiMemo](https://www.maimemo.com/).
-
-- Markji uses the MMX algorithm, a variant of FSRS developed by the same creator.
+### General Flashcard
 
 #### [Anki](https://apps.ankiweb.net/)
 
@@ -61,11 +55,11 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 - FSRS available as an opt-in feature replacing the default SM-2 algorithm.
 - Additionally, this [add-on](https://ankiweb.net/shared/info/759844606) offers a variety of extra features, such as Postpone, Advance, Load Balancing and Easy Days.
 
-#### [Rember](https://www.rember.com/)
+#### [Markji](https://www.markji.com/)
 
-  A simple yet powerful spaced repetition system designed to help you remember more. It uses AI to automatically generate cards and FSRS-5 to schedule your reviews.
+  Markji is a flashcard application designed to help users efficiently memorize and retain information. It's particularly popular for language learning, exam preparation, and other memorization-heavy subjects. The app is developed by MaiMemo Inc., the company also behind the popular Chinese vocabulary app, [MaiMemo](https://www.maimemo.com/).
 
-  Rember uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs).
+- Markji uses the MMX algorithm, a variant of FSRS developed by the same creator.
 
 #### [Mochi Cards](https://mochi.cards/)
 
@@ -77,23 +71,25 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 - Offline-first by default; sync securely across devices with a **Pro** subscription  
 - Import Anki decks or export `.mochi` packages for backup and sharing
 
-#### [Phrasing.app](https://phrasing.app)
+#### [Rember](https://www.rember.com/)
 
-  **Phrasing.app** Combine the power of Spaced Repetition with efficacy of Comprehensible Input to learn over 120 languages
+  A simple yet powerful spaced repetition system designed to help you remember more. It uses AI to automatically generate cards and FSRS-5 to schedule your reviews.
 
-- Our [Humane SRS](https://phrasing.app/blog/humane-srs) builds upon FSRS to make reviews as addicting as possible
-- Our focus on language learning allows us to make additional optimizations in the review space so you can learn more, faster
-- Native support for learning multiple languages simultaniously at various speeds
-- Inline audio, translations, explanations & more for every word
-- Beautiful UI and genuine support for all languages (founder is learning Maltese, Cantonese, Sanskrit and more)
+  Rember uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs).
+
+#### [SpacedCards](https://spacedcards.app)
+
+  SpacedCards is an iOS flashcard app which forces students to review cards to unlock scrolltime. It works offline, is customizable & has AI for generating cards (images, audio or PDFs). 
+
+  SpacedCards uses [dart-fsrs]([https://github.com/open-spaced-repetition/ts-fsrs](https://github.com/open-spaced-repetition/dart-fsrs)).
   
 ### Note-taking
 
-#### [RemNote](https://www.remnote.com/)
+#### [Logseq](https://logseq.com/)
 
-  Multiplatform note-taking application with a simple and streamlined process of creating flashcards. Has an active community with student-made materials for exam preparation. Available for offline and online usage.
+  A privacy-first, open-source platform for knowledge management and collaboration. It focuses on privacy, longevity, and user control.
 
-  RemNote integrated FSRS-4.5 into its scheduling system in [release 1.16](https://feedback.remnote.com/changelog/remnote-1-16-ultimate-spaced-repetition).
+  Logseq uses [cljc-fsrs](https://github.com/open-spaced-repetition/cljc-fsrs) in its database version.
 
 #### [Obsidian](https://obsidian.md/)
 
@@ -103,11 +99,11 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
   - [HiNote](https://github.com/CatMuse/HiNote) is a powerful Obsidian extension that helps you add comments to highlighted notes, use AI for thinking, and FSRS-6 for memory.
 
-#### [Logseq](https://logseq.com/)
+#### [RemNote](https://www.remnote.com/)
 
-  A privacy-first, open-source platform for knowledge management and collaboration. It focuses on privacy, longevity, and user control.
+  Multiplatform note-taking application with a simple and streamlined process of creating flashcards. Has an active community with student-made materials for exam preparation. Available for offline and online usage.
 
-  Logseq uses [cljc-fsrs](https://github.com/open-spaced-repetition/cljc-fsrs) in its database version.
+  RemNote integrated FSRS-4.5 into its scheduling system in [release 1.16](https://feedback.remnote.com/changelog/remnote-1-16-ultimate-spaced-repetition).
 
 #### [SiYuan](https://github.com/siyuan-note/siyuan)
 
@@ -121,7 +117,7 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
   FSRS is available as a fork of the Tidme plugin for TiddlyWiki: [fsrs4tw](https://github.com/open-spaced-repetition/fsrs4tw)
 
-### Others
+### Specialized Flashcard
 
 #### [Chessbook](https://chessbook.com/)
 
@@ -129,23 +125,27 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
   Chessbook overhauled its spaced repetition system [using FSRS-4.5](https://x.com/chessbookcom/status/1805137108991946775).
 
-#### [WordVault](https://aerolith.org/wordvault/)
-
-  WordVault is a word study app for Scrabble/Boggle/other word games. It [uses the Go FSRS library](https://github.com/open-spaced-repetition/go-fsrs) for scheduling words, which show up as scrambled letters for the user to solve. This should hopefully be significally more efficient than the Leitner cardbox system previously in use in some word study apps.
-
-  See [announcement blog post](https://cesardelsolar.com/posts/2024-10-13-wordvault/).
-
 #### [LeetFlash](https://leetflash.com/)
 
   LeetFlash is a flashcard review app for review LeetCode algorithm questions. It leverages TS-FSRS for scheduling flashcards.
 
   The app consists of a Chrome extension, website for now. A mobile app is under development. It can automatically capture LeetCode question submissions and schedule your next review using an Anki-like experience. It supports both Leetcode and Leetcode China (力扣).
 
-#### [SpacedCards](https://spacedcards.app)
+#### [Phrasing.app](https://phrasing.app)
 
-  SpacedCards is an iOS flashcard app which forces students to review cards to unlock scrolltime. It works offline, is customizable & has AI for generating cards (images, audio or PDFs). 
+  **Phrasing.app** Combine the power of Spaced Repetition with efficacy of Comprehensible Input to learn over 120 languages
 
-  SpacedCards uses [dart-fsrs]([https://github.com/open-spaced-repetition/ts-fsrs](https://github.com/open-spaced-repetition/dart-fsrs)).
+- Our [Humane SRS](https://phrasing.app/blog/humane-srs) builds upon FSRS to make reviews as addicting as possible
+- Our focus on language learning allows us to make additional optimizations in the review space so you can learn more, faster
+- Native support for learning multiple languages simultaniously at various speeds
+- Inline audio, translations, explanations & more for every word
+- Beautiful UI and genuine support for all languages (founder is learning Maltese, Cantonese, Sanskrit and more)
+
+#### [WordVault](https://aerolith.org/wordvault/)
+
+  WordVault is a word study app for Scrabble/Boggle/other word games. It [uses the Go FSRS library](https://github.com/open-spaced-repetition/go-fsrs) for scheduling words, which show up as scrambled letters for the user to solve. This should hopefully be significally more efficient than the Leitner cardbox system previously in use in some word study apps.
+
+  See [announcement blog post](https://cesardelsolar.com/posts/2024-10-13-wordvault/).
 
 ## Related
 
