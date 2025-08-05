@@ -147,6 +147,12 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
   See [announcement blog post](https://cesardelsolar.com/posts/2024-10-13-wordvault/).
 
+#### [HSRS](https://github.com/satchelspencer/hsrs) 
+
+Intended for language learning, HSRS continuously refreshes card content using a system of parameterized grammar cards. Individual reviews of a card reschedule all sub-cards in the parameter tree using bayesian statistics to estimate the contributions of each. Changes to stability from FSRS are interpolated in retrievability-space according to their probability. 
+
+Used to power the [grsly](https://grsly.com/), a tool for learning Japanese grammar.
+
 ## Related
 
 ### Algorithm
