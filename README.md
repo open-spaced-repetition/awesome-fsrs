@@ -77,6 +77,16 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 - Offline-first by default; sync securely across devices with a **Pro** subscription  
 - Import Anki decks or export `.mochi` packages for backup and sharing
 
+#### [Phrasing.app](https://phrasing.app)
+
+  **Phrasing.app** Combine the power of Spaced Repetition with efficacy of Comprehensible Input to learn over 120 languages
+
+- Our [Humane SRS](https://phrasing.app/blog/humane-srs) builds upon FSRS to make reviews as addicting as possible
+- Our focus on language learning allows us to make additional optimizations in the review space so you can learn more, faster
+- Native support for learning multiple languages simultaniously at various speeds
+- Inline audio, translations, explanations & more for every word
+- Beautiful UI and genuine support for all languages (founder is learning Maltese, Cantonese, Sanskrit and more)
+  
 ### Note-taking
 
 #### [RemNote](https://www.remnote.com/)
