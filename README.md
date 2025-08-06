@@ -125,6 +125,12 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
   Chessbook overhauled its spaced repetition system [using FSRS-4.5](https://x.com/chessbookcom/status/1805137108991946775).
 
+#### [HSRS](https://github.com/satchelspencer/hsrs) 
+
+Intended for language learning, HSRS continuously refreshes card content using a system of parameterized grammar cards. Individual reviews of a card reschedule all sub-cards in the parameter tree using bayesian statistics to estimate the contributions of each. Changes to stability from FSRS are interpolated in retrievability-space according to their probability. 
+
+Used to power [grsly](https://grsly.com/), a tool for learning Japanese grammar.
+
 #### [LeetFlash](https://leetflash.com/)
 
   LeetFlash is a flashcard review app for review LeetCode algorithm questions. It leverages TS-FSRS for scheduling flashcards.
