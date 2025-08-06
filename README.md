@@ -125,6 +125,12 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
   Chessbook overhauled its spaced repetition system [using FSRS-4.5](https://x.com/chessbookcom/status/1805137108991946775).
 
+#### [HSRS](https://github.com/satchelspencer/hsrs) 
+
+Intended for language learning, HSRS continuously refreshes card content using a system of parameterized grammar cards. Individual reviews of a card reschedule all sub-cards in the parameter tree using bayesian statistics to estimate the contributions of each. Changes to stability from FSRS are interpolated in retrievability-space according to their probability. 
+
+Used to power [grsly](https://grsly.com/), a tool for learning Japanese grammar.
+
 #### [LeetFlash](https://leetflash.com/)
 
   LeetFlash is a flashcard review app for review LeetCode algorithm questions. It leverages TS-FSRS for scheduling flashcards.
@@ -146,12 +152,6 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
   WordVault is a word study app for Scrabble/Boggle/other word games. It [uses the Go FSRS library](https://github.com/open-spaced-repetition/go-fsrs) for scheduling words, which show up as scrambled letters for the user to solve. This should hopefully be significally more efficient than the Leitner cardbox system previously in use in some word study apps.
 
   See [announcement blog post](https://cesardelsolar.com/posts/2024-10-13-wordvault/).
-
-#### [HSRS](https://github.com/satchelspencer/hsrs) 
-
-Intended for language learning, HSRS continuously refreshes card content using a system of parameterized grammar cards. Individual reviews of a card reschedule all sub-cards in the parameter tree using bayesian statistics to estimate the contributions of each. Changes to stability from FSRS are interpolated in retrievability-space according to their probability. 
-
-Used to power [grsly](https://grsly.com/), a tool for learning Japanese grammar.
 
 ## Related
 
