@@ -121,7 +121,8 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
   ZKMemo is a free, offline-first note-taking and learning software that combines FSRS-based spaced repetition with incremental reading. It features a SuperMemo-like interface, tree-structured knowledge management, AI integration, and Zettelkasten linking.
   
-  ZKMemo integrates FSRS-6, implemented using the [srs-everything](https://github.com/jiangege/srs-everything).
+  - ZKMemo integrates FSRS-6, implemented using the [srs-everything](https://github.com/jiangege/srs-everything).
+  - [Getting Started](https://help.zkmemo.com/getting-started.html)
 
 ### Specialized Flashcard
 
