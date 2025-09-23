@@ -166,7 +166,7 @@ Used to power [grsly](https://grsly.com/), a tool for learning Japanese grammar.
 
 - It uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) to schedule reviews of JLPT N5 - N1 vocabulary and grammar flashcards.
 - Speech-based JLPT grammar flashcard reviews: translate English prompts into Japanese aloud, applying grammar points in context while reinforcing memory through speech.
-- Speech-based Japanese verb conjugation practice with instant feedback to strengthen active recall of verb forms and speaking confidence.
+- [Speech-based Japanese verb conjugation practice](https://www.youtube.com/watch?v=6ehilb5dzyc) with instant feedback to strengthen active recall of verb forms and speaking confidence.
   
 ## Related
 
