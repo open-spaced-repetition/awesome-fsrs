@@ -167,7 +167,7 @@ Used to power [grsly](https://grsly.com/), a tool for learning Japanese grammar.
   WordVault is a word study app for Scrabble/Boggle/other word games. It [uses the Go FSRS library](https://github.com/open-spaced-repetition/go-fsrs) for scheduling words, which show up as scrambled letters for the user to solve. This should hopefully be significally more efficient than the Leitner cardbox system previously in use in some word study apps.
 
   See [announcement blog post](https://cesardelsolar.com/posts/2024-10-13-wordvault/).
-  
+
 ## Related
 
 ### Algorithm
