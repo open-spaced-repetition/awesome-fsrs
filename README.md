@@ -164,13 +164,6 @@ Used to power [grsly](https://grsly.com/), a tool for learning Japanese grammar.
 
 ### Algorithm
 
-#### MaiMemo
-
-- Paper: 
-  - [A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling - Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining](https://dl.acm.org/doi/10.1145/3534678.3539081?cid=99660547150) [[中文版](https://memodocs.maimemo.com/docs/2022_KDD)]
-  - [Optimizing Spaced Repetition Schedule by Capturing the Dynamics of Memory - IEEE Journals & Magazine - IEEE Xplore](https://ieeexplore.ieee.org/document/10059206) [[中文版](https://memodocs.maimemo.com/docs/2023_TKDE)]
-- Dataset: [MaiMemo's Open-Source Memory Behavior Dataset for Spaced Repetition](https://doi.org/10.7910/DVN/VAGUL0) [[中文介绍](https://memodocs.maimemo.com/docs/dataset)]
-
 #### FSRS
 
 - Dataset:
@@ -178,6 +171,13 @@ Used to power [grsly](https://grsly.com/), a tool for learning Japanese grammar.
   - [open-spaced-repetition/FSRS-Anki-20k · Datasets at Hugging Face](https://huggingface.co/datasets/open-spaced-repetition/FSRS-Anki-20k) (deprecated)
 - Benchmark: [open-spaced-repetition/srs-benchmark: A benchmark for spaced repetition schedulers/algorithms (github.com)](https://github.com/open-spaced-repetition/srs-benchmark)
 - FSRS Explained with Code: [Implementing FSRS in 100 Lines](https://borretti.me/article/implementing-fsrs-in-100-lines)
+
+#### MaiMemo
+
+- Paper: 
+  - [A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling - Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining](https://dl.acm.org/doi/10.1145/3534678.3539081?cid=99660547150) [[中文版](https://memodocs.maimemo.com/docs/2022_KDD)]
+  - [Optimizing Spaced Repetition Schedule by Capturing the Dynamics of Memory - IEEE Journals & Magazine - IEEE Xplore](https://ieeexplore.ieee.org/document/10059206) [[中文版](https://memodocs.maimemo.com/docs/2023_TKDE)]
+- Dataset: [MaiMemo's Open-Source Memory Behavior Dataset for Spaced Repetition](https://doi.org/10.7910/DVN/VAGUL0) [[中文介绍](https://memodocs.maimemo.com/docs/dataset)]
 
 #### Leitner System
 
