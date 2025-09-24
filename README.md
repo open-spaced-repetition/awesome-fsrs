@@ -182,6 +182,9 @@ Used to power [grsly](https://grsly.com/), a tool for learning Japanese grammar.
 
 #### MaiMemo
 
+- Code:
+  - [maimemo/SSP-MMC: A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling](https://github.com/maimemo/SSP-MMC)
+  - [maimemo/SSP-MMC-Plus: Optimizing Spaced Repetition Schedule by Capturing the Dynamics of Memory](https://github.com/maimemo/SSP-MMC-Plus)
 - Paper: 
   - [A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling - Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining](https://dl.acm.org/doi/10.1145/3534678.3539081?cid=99660547150) [[中文版](https://memodocs.maimemo.com/docs/2022_KDD)]
   - [Optimizing Spaced Repetition Schedule by Capturing the Dynamics of Memory - IEEE Journals & Magazine - IEEE Xplore](https://ieeexplore.ieee.org/document/10059206) [[中文版](https://memodocs.maimemo.com/docs/2023_TKDE)]
