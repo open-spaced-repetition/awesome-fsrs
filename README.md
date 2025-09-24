@@ -126,6 +126,14 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
 ### Specialized Flashcard
 
+#### [AI Japanese Tutor](https://www.aijapanesetutor.org)
+
+**AI Japanese Tutor** blends voice-based Japanese verb conjugation practice with SRS-powered flashcards for JLPT N5 - N1 grammar and vocabulary.
+
+- It uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) to schedule reviews of JLPT N5 - N1 vocabulary and grammar flashcards.
+- Speech-based JLPT grammar flashcard reviews: translate English prompts into Japanese aloud, applying grammar points in context while reinforcing memory through speech.
+- [Speech-based Japanese verb conjugation practice](https://www.youtube.com/watch?v=6ehilb5dzyc) with instant feedback to strengthen active recall of verb forms and speaking confidence.
+
 #### [Chessbook](https://chessbook.com/)
 
   Mobile and web chess study application that combines multiple resources from YouTube, Lichess, ChessBase, and books to create a custom personal chess repertoire.
