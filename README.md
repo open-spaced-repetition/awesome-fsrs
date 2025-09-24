@@ -190,11 +190,23 @@ Used to power [grsly](https://grsly.com/), a tool for learning Japanese grammar.
   - [Optimizing Spaced Repetition Schedule by Capturing the Dynamics of Memory - IEEE Journals & Magazine - IEEE Xplore](https://ieeexplore.ieee.org/document/10059206) [[中文版](https://memodocs.maimemo.com/docs/2023_TKDE)]
 - Dataset: [MaiMemo's Open-Source Memory Behavior Dataset for Spaced Repetition](https://doi.org/10.7910/DVN/VAGUL0) [[中文介绍](https://memodocs.maimemo.com/docs/dataset)]
 
-#### Leitner System
+#### HLR
 
-  Leitner sytem sorts flashcard into groups according to how well the learner knows each one in Leitner's learning box. The learners try to recall the answer written on a flashcard. If they succeed, the card is sent to the next box. If they fail, the card is sent back to the first box. In each successive box, the amount of time before the learner is required to revisit the cards increases. (More: [Wikipedia](https://en.wikipedia.org/wiki/Leitner_system))
+  An algorithm made particularly for second language acquisition. The HLR model marries psycholinguistic theory with modern machine learning techniques, estimating the "half-life" of words (and potentially any other item or fact) in a student's long-term memory.
 
-#### SuperMemo algorithms
+- GitHub repository: [duolingo/halflife-regression](https://github.com/duolingo/halflife-regression)
+- Paper: [A Trainable Spaced Repetition Model for Language Learning](https://github.com/duolingo/halflife-regression/blob/master/settles.acl16.pdf)
+
+#### DASH
+
+- Paper: [Probabilistic Models of Student Learning and Forgetting Public Deposited](https://scholar.colorado.edu/concern/graduate_thesis_or_dissertations/zp38wc97m)
+- Paper: [Memory Models for Spaced Repetition Systems](https://www.politesi.polimi.it/retrieve/b39227dd-0963-40f2-a44b-624f205cb224/2022_4_Randazzo_01.pdf)
+
+#### ACT-R
+
+- Paper: [An ACT-R Model of the Spacing Effect](http://act-r.psy.cmu.edu/wordpress/wp-content/themes/ACT-R/workshops/2003/proceedings/46.pdf)
+
+#### SuperMemo
 
   SuperMemo was the first software that used computer-based spaced repetition algorithms and pioneered the usage of machine learning to personalize each user's learning schedule.
 
@@ -203,18 +215,6 @@ Used to power [grsly](https://grsly.com/), a tool for learning Japanese grammar.
 - SM-5: [First fast-converging spaced repetition algorithm: Algorithm SM-5](https://supermemo.guru/wiki/First_fast-converging_spaced_repetition_algorithm:_Algorithm_SM-5)
 - SM-17: [Algorithm SM-17](https://supermemo.guru/wiki/Algorithm_SM-17)
 
-#### ACT-R
+#### Leitner System
 
-- Paper: [An ACT-R Model of the Spacing Effect](http://act-r.psy.cmu.edu/wordpress/wp-content/themes/ACT-R/workshops/2003/proceedings/46.pdf)
-
-#### DASH
-
-- Paper: [Probabilistic Models of Student Learning and Forgetting Public Deposited](https://scholar.colorado.edu/concern/graduate_thesis_or_dissertations/zp38wc97m)
-- Paper: [Memory Models for Spaced Repetition Systems](https://www.politesi.polimi.it/retrieve/b39227dd-0963-40f2-a44b-624f205cb224/2022_4_Randazzo_01.pdf)
-
-#### Duolingo's Half-Life Regression algorithm
-
-  An algorithm made particularly for second language acquisition. The HLR model marries psycholinguistic theory with modern machine learning techniques, estimating the "half-life" of words (and potentially any other item or fact) in a student's long-term memory.
-
-- GitHub repository: [duolingo/halflife-regression](https://github.com/duolingo/halflife-regression)
-- Paper: [A Trainable Spaced Repetition Model for Language Learning](https://github.com/duolingo/halflife-regression/blob/master/settles.acl16.pdf)
+  Leitner sytem sorts flashcard into groups according to how well the learner knows each one in Leitner's learning box. The learners try to recall the answer written on a flashcard. If they succeed, the card is sent to the next box. If they fail, the card is sent back to the first box. In each successive box, the amount of time before the learner is required to revisit the cards increases. (More: [Wikipedia](https://en.wikipedia.org/wiki/Leitner_system))
