@@ -57,7 +57,7 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
 #### [Markji](https://www.markji.com/)
 
-  Markji is a flashcard application designed to help users efficiently memorize and retain information. It's particularly popular for language learning, exam preparation, and other memorization-heavy subjects. The app is developed by MaiMemo Inc., the company also behind the popular Chinese vocabulary app, [MaiMemo](https://www.maimemo.com/).
+  Markji is a flashcard application designed to help users efficiently memorize and retain information. It's particularly popular for language learning, exam preparation, and other memorization-heavy subjects. The app is developed by MaiMemo Inc., the company also behind the popular language-learning APP in China, [MaiMemo](https://www.maimemo.com/).
 
 - Markji uses the MMX algorithm, a variant of FSRS developed by the same creator.
 
@@ -189,6 +189,11 @@ Used to power [grsly](https://grsly.com/), a tool for learning Japanese grammar.
   - [A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling - Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining](https://dl.acm.org/doi/10.1145/3534678.3539081?cid=99660547150) [[中文版](https://memodocs.maimemo.com/docs/2022_KDD)]
   - [Optimizing Spaced Repetition Schedule by Capturing the Dynamics of Memory - IEEE Journals & Magazine - IEEE Xplore](https://ieeexplore.ieee.org/document/10059206) [[中文版](https://memodocs.maimemo.com/docs/2023_TKDE)]
 - Dataset: [MaiMemo's Open-Source Memory Behavior Dataset for Spaced Repetition](https://doi.org/10.7910/DVN/VAGUL0) [[中文介绍](https://memodocs.maimemo.com/docs/dataset)]
+- Science popularization video:
+  - [【墨墨科普】为了搞懂艾宾浩斯记忆法的虚假与真相，我回到了 1885 年……_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1yF411s7SN/)
+  - [【墨墨科普】降维打击！别用艾宾浩斯记忆法了，试试这个吧！_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1mL4y1P7bh/)
+  - [【墨墨科普】几个公式，拯救你的记忆。_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Xe4y1t7Mi/)
+- Wiki: [墨墨百科](https://memodocs.maimemo.com/docs/algorithm-intro)
 
 #### HLR
 
