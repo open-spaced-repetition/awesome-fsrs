@@ -99,6 +99,22 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
   - [HiNote](https://github.com/CatMuse/HiNote) is a powerful Obsidian extension that helps you add comments to highlighted notes, use AI for thinking, and FSRS-6 for memory.
 
+#### [Org-srs](https://github.com/bohonghuang/org-srs)
+
+  Org-srs is a feature-rich and extensible spaced repetition system integrated with Org-mode, letting you learn and review without leaving Emacs.
+
+  - Keeps review data and configuration in Org files, making sync and version control straightforward.
+  - Bundles FSRS with parameter tuning, advanced scheduling features, and optional caching for large collections.
+  - Extensible via hooks with embeddable entries, rich item types, charts, and touchscreen-friendly controls.
+
+#### [Org-fc](https://github.com/l3kn/org-fc)
+
+  Org-fc brings spaced repetition to Org-mode through flexible flashcard templates.
+
+  - Marks Org headlines as cards with cloze, list, and custom layouts.
+  - Includes experimental FSRS-6 scheduling powered by a Python helper.
+  - Provides guides, migration tools, and mailing lists to support long-term study workflows.
+
 #### [RemNote](https://www.remnote.com/)
 
   Multiplatform note-taking application with a simple and streamlined process of creating flashcards. Has an active community with student-made materials for exam preparation. Available for offline and online usage.
