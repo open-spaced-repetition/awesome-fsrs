@@ -190,6 +190,8 @@ Used to power [grsly](https://grsly.com/), a tool for learning Japanese grammar.
 
 #### FSRS
 
+- Math:
+  - [The Algorithm · open-spaced-repetition/awesome-fsrs Wiki](https://github.com/open-spaced-repetition/awesome-fsrs/wiki/The-Algorithm)
 - Dataset:
   - [open-spaced-repetition/anki-revlogs-10k · Datasets at Hugging Face](https://huggingface.co/datasets/open-spaced-repetition/anki-revlogs-10k) (latest)
   - [open-spaced-repetition/FSRS-Anki-20k · Datasets at Hugging Face](https://huggingface.co/datasets/open-spaced-repetition/FSRS-Anki-20k) (deprecated)
