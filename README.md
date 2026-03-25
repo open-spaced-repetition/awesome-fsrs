@@ -178,6 +178,12 @@ Used to power [grsly](https://grsly.com/), a tool for learning Japanese grammar.
 - Inline audio, translations, explanations & more for every word
 - Beautiful UI and genuine support for all languages (founder is learning Maltese, Cantonese, Sanskrit and more)
 
+#### [Rhythm Word](https://rhythmword.com)
+
+  Rhythm Word is an iOS vocabulary learning app that helps users build and retain English vocabulary through AI-generated context sentences and spaced repetition.
+
+  Rhythm Word implements FSRS-4.5 for intelligent review scheduling.
+
 #### [WordVault](https://aerolith.org/wordvault/)
 
   WordVault is a word study app for Scrabble/Boggle/other word games. It [uses the Go FSRS library](https://github.com/open-spaced-repetition/go-fsrs) for scheduling words, which show up as scrambled letters for the user to solve. This should hopefully be significally more efficient than the Leitner cardbox system previously in use in some word study apps.
