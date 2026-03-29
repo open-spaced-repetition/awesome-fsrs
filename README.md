@@ -103,6 +103,8 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
   - [LearnKit](https://github.com/ctrlaltwill/LearnKit) helps you remember what you write. It brings flashcards, note review, tests, and AI-assisted study tools into Obsidian, so your vault becomes a place to learn, not just store information. It uses FSRS-6 for spaced repetition scheduling.
 
+  - [True Recall](https://github.com/pieralukasz/true-recall) is a next-gen spaced repetition system for Obsidian with AI card generation, local-first SQLite storage, Anki import/export, projects system, and comprehensive analytics. It uses FSRS-6 via [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs).
+
 #### [Org-srs](https://github.com/bohonghuang/org-srs)
 
   Org-srs is a feature-rich and extensible spaced repetition system integrated with Org-mode, letting you learn and review without leaving Emacs.
