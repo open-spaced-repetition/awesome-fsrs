@@ -91,6 +91,13 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
   SpacedCards uses [dart-fsrs]([https://github.com/open-spaced-repetition/ts-fsrs](https://github.com/open-spaced-repetition/dart-fsrs)).
   
+
+#### [spacedrep](https://github.com/wpwilson10/spacedrep)
+
+  A CLI and MCP server for spaced repetition with .apkg import/export. Designed for scripting and AI agent workflows, no GUI required. Available on [PyPI](https://pypi.org/project/spacedrep/).
+
+  spacedrep uses [py-fsrs](https://github.com/open-spaced-repetition/py-fsrs).
+
 ### Note-taking
 
 #### [Logseq](https://logseq.com/)
