@@ -57,6 +57,15 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 - FSRS available as an opt-in feature replacing the default SM-2 algorithm.
 - Additionally, this [add-on](https://ankiweb.net/shared/info/759844606) offers a variety of extra features, such as Postpone, Advance, Load Balancing and Easy Days.
 
+#### [Flipnem](https://flipnem.com/)
+
+An Anki compatible online Flashcard platform that supports PWA install.
+
+- Mnemonics, Deck Encryption, Deck Sharing, and an optional public profile to show off your progress
+- An MCP server that allows user to connect their own AI agent to their collections for quizzing, deck management, and mnemonic reinforcement.
+- Free and paid tiers
+- FSRS scheduled flashcard reviews that rely on [rs-fsrs](https://github.com/open-spaced-repetition/rs-fsrs)
+
 #### [Markji](https://www.markji.com/)
 
   Markji is a flashcard application designed to help users efficiently memorize and retain information. It's particularly popular for language learning, exam preparation, and other memorization-heavy subjects. The app is developed by MaiMemo Inc., the company also behind the popular language-learning APP in China, [MaiMemo](https://www.maimemo.com/).
