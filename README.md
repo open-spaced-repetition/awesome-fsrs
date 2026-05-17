@@ -82,6 +82,15 @@ An Anki compatible online Flashcard platform that supports PWA install.
 - Offline-first by default; sync securely across devices with a **Pro** subscription  
 - Import Anki decks or export `.mochi` packages for backup and sharing
 
+#### [Quanta](https://quanta-study.de)
+
+  Quanta is an AI-powered flashcard and exam platform for German-speaking students (DACH region). It combines citation-first AI generation — where every card links to verifiable academic sources (Google Scholar, Wikipedia, textbooks) — with Bloom taxonomy control, LaTeX rendering, and MC quiz generation following Haladyna & Downing distractor guidelines.
+
+- Quanta uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) for native FSRS-6 scheduling across all review modes (classic, endless, exam simulation).
+- AI generates flashcards from topic, PDF, photo, or URL with mandatory source declaration before card creation (≥0.90 confidence threshold).
+- Includes interactive Bloom taxonomy pyramid, Feynman method AI tutor, and 350+ German study programs with context-aware generation.
+- Free tier includes FSRS-6 spaced repetition forever (50 AI cards/month). Pro €8/mo, Evo €14/mo with student discounts.
+
 #### [Rember](https://www.rember.com/)
 
   A simple yet powerful spaced repetition system designed to help you remember more. It uses AI to automatically generate cards and FSRS-5 to schedule your reviews.
