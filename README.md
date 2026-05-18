@@ -196,16 +196,6 @@ Used to power [grsly](https://grsly.com/), a tool for learning Japanese grammar.
 
   The app consists of a Chrome extension, website for now. A mobile app is under development. It can automatically capture LeetCode question submissions and schedule your next review using an Anki-like experience. It supports both Leetcode and Leetcode China (力扣).
 
-#### [Phrasing.app](https://phrasing.app)
-
-  **Phrasing.app** Combine the power of Spaced Repetition with efficacy of Comprehensible Input to learn over 120 languages
-
-- Our [Humane SRS](https://phrasing.app/blog/humane-srs) builds upon FSRS to make reviews as addicting as possible
-- Our focus on language learning allows us to make additional optimizations in the review space so you can learn more, faster
-- Native support for learning multiple languages simultaniously at various speeds
-- Inline audio, translations, explanations & more for every word
-- Beautiful UI and genuine support for all languages (founder is learning Maltese, Cantonese, Sanskrit and more)
-
 #### [Rhythm Word](https://rhythmword.com)
 
   Rhythm Word is an iOS vocabulary learning app that helps users build and retain English vocabulary through AI-generated context sentences and spaced repetition.
