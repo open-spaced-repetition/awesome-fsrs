@@ -199,6 +199,12 @@ Intended for language learning, HSRS continuously refreshes card content using a
 
 Used to power [grsly](https://grsly.com/), a tool for learning Japanese grammar.
 
+#### [KaChiKa](https://kachika.app/)
+
+  KaChiKa is an AI-powered photo-to-flashcard app for language learners. Snap a photo of any object — a coffee cup, a cat, a street sign — and KaChiKa extracts the vocabulary, generates real-world example sentences, and schedules reviews using FSRS.
+
+  Supports English, Japanese, French, Korean, Italian, Spanish, and Chinese. All photos are stored locally on device for privacy. Available on iOS, Android, and APK.
+
 #### [LeetFlash](https://leetflash.com/)
 
   LeetFlash is a flashcard review app for review LeetCode algorithm questions. It leverages TS-FSRS for scheduling flashcards.
