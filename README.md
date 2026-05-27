@@ -211,6 +211,17 @@ Used to power [grsly](https://grsly.com/), a tool for learning Japanese grammar.
 
   The app consists of a Chrome extension, website for now. A mobile app is under development. It can automatically capture LeetCode question submissions and schedule your next review using an Anki-like experience. It supports both Leetcode and Leetcode China (力扣).
 
+#### [LinGoat](https://lingoat.app/)
+
+  LinGoat is an AI-powered language learning app that scores every word and grammar rule in every sentence you translate. Each item gets its own independent FSRS schedule, so reviews are driven by precise per-item recall data rather than sentence-level outcomes.
+
+- Schedules word and grammar reviews using FSRS v6.
+- Stacks multiple due or soon to be due review concepts into a single sentence to maximize useful reps per minute.
+- Currently supports Spanish, with English and German coming soon. Free to get started. Supports learning Spanish from multiple languages.
+- Available on web.
+
+  LinGoat uses [py-fsrs](https://github.com/open-spaced-repetition/py-fsrs) (FSRS-6) for scheduling.
+
 #### [Rhythm Word](https://rhythmword.com)
 
   Rhythm Word is an iOS vocabulary learning app that helps users build and retain English vocabulary through AI-generated context sentences and spaced repetition.
