@@ -177,6 +177,16 @@ An Anki compatible online Flashcard platform that supports PWA install.
   - ZKMemo integrates FSRS-6, implemented using the [srs-everything](https://github.com/jiangege/srs-everything).
   - [Getting Started](https://help.zkmemo.com/getting-started.html)
 
+### Incremental Reading
+
+#### [Foliole](https://github.com/campfirium/foliole)
+
+Foliole is an approachable incremental reading app for making reading actually complete.
+
+Open source, open data, local first.
+
+Native incremental reading with integrated FSRS scheduling, powered by [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs).
+
 ### Specialized Flashcard
 
 #### [AI Japanese Tutor](https://www.aijapanesetutor.org)
