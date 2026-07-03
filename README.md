@@ -57,6 +57,12 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 - FSRS available as an opt-in feature replacing the default SM-2 algorithm.
 - Additionally, this [add-on](https://ankiweb.net/shared/info/759844606) offers a variety of extra features, such as Postpone, Advance, Load Balancing and Easy Days.
 
+#### [Discito](https://discito.app)
+
+  Discito is a native iOS flashcard app built around FSRS-6, with iCloud sync, on-device AI card generation, lecture-audio-to-flashcards, image occlusion authoring, and full-fidelity `.apkg` import/export. One-time purchase, no subscription.
+
+  Discito uses its own Swift FSRS-6 port (validated for parity against [py-fsrs](https://github.com/open-spaced-repetition/py-fsrs)), with the parameter optimizer bridging [fsrs-rs](https://github.com/open-spaced-repetition/fsrs-rs) via swift-bridge FFI.
+
 #### [Flipnem](https://flipnem.com/)
 
 An Anki compatible online Flashcard platform that supports PWA install.
