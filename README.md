@@ -88,6 +88,12 @@ An Anki compatible online Flashcard platform that supports PWA install.
 - Offline-first by default; sync securely across devices with a **Pro** subscription  
 - Import Anki decks or export `.mochi` packages for backup and sharing
 
+#### [Origa](https://github.com/yurvon-screamo/origa)
+
+  Open source Japanese learning app for desktop (Windows, Linux, macOS) and Android. Built-in dictionaries, kanji, grammar, and phrases — all scheduled with FSRS. Russian and English. Offline-first.
+
+- Uses [fsrs-rs](https://github.com/open-spaced-repetition/fsrs-rs) for FSRS-6 scheduling.
+
 #### [Quanta](https://quanta-study.de)
 
   Quanta is an AI-powered flashcard and exam platform for German-speaking students (DACH region). It combines citation-first AI generation — where every card links to verifiable academic sources (Google Scholar, Wikipedia, textbooks) — with Bloom taxonomy control, LaTeX rendering, and MC quiz generation following Haladyna & Downing distractor guidelines.
