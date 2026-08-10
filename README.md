@@ -57,6 +57,14 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 - FSRS available as an opt-in feature replacing the default SM-2 algorithm.
 - Additionally, this [add-on](https://ankiweb.net/shared/info/759844606) offers a variety of extra features, such as Postpone, Advance, Load Balancing and Easy Days.
 
+#### [Avorio](https://avorio.ai/)
+
+  Avorio is a native flashcard app for macOS and iPhone built around FSRS-5. It imports Anki `.apkg` and `.colpkg` files with scheduling state, review history, media, tags, note types, cloze deletions and image occlusion cards intact, so decks resume on the schedule they were already on instead of resetting to new, and exports back to `.apkg`. Cards live in a local SQLite database and the review path makes no network calls, so it works offline and does not require an account. The flashcard app, FSRS-5, Anki import/export, local AI via Ollama, and offline mode are free; optional subscriptions add cloud AI generation and Mac-to-iPhone sync.
+
+- FSRS-5 is the default scheduler. SM-2 is available per deck, and switching between them does not reset progress.
+- On import, Avorio can fit FSRS parameters to your own Anki review log rather than using generic defaults.
+- Avorio uses its own FSRS-5 implementation in a shared Rust core, exposed to SwiftUI through [UniFFI](https://github.com/mozilla/uniffi-rs).
+
 #### [Discito](https://discito.app)
 
   Discito is a native iOS flashcard app built around FSRS-6, with iCloud sync, on-device AI card generation, lecture-audio-to-flashcards, image occlusion authoring, and full-fidelity `.apkg` import/export. One-time purchase, no subscription.
