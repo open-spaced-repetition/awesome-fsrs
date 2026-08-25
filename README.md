@@ -260,6 +260,13 @@ Used to power [grsly](https://grsly.com/), a tool for learning Japanese grammar.
 
   Rhythm Word implements FSRS-4.5 for intelligent review scheduling.
 
+#### [Word2Sentence](https://github.com/ArabidopsisDev/Word2Sentence)
+
+Word2Sentence is a local-first Windows desktop app for learning vocabulary through sentence production. AI generates multilingual writing scenarios, provides inline feedback and post-answer usage cards, and automatically evaluates target-word recall without self-rating buttons.
+
+- Uses a deterministic C# FSRS-6 scheduler validated against `py-fsrs 6.3.1`, with 90% desired retention.
+- Supports English and Simplified Chinese UI, configurable target and explanation languages, and local JSON storage.
+
 #### [WordVault](https://aerolith.org/wordvault/)
 
   WordVault is a word study app for Scrabble/Boggle/other word games. It [uses the Go FSRS library](https://github.com/open-spaced-repetition/go-fsrs) for scheduling words, which show up as scrambled letters for the user to solve. This should hopefully be significally more efficient than the Leitner cardbox system previously in use in some word study apps.
