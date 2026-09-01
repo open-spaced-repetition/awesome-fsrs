@@ -113,6 +113,17 @@ An Anki compatible online Flashcard platform that supports PWA install.
 - Includes interactive Bloom taxonomy pyramid, Feynman method AI tutor, and 350+ German study programs with context-aware generation.
 - Free tier includes FSRS-6 spaced repetition forever (50 AI cards/month). Pro €8/mo, Evo €14/mo with student discounts.
 
+#### [Read Frog](https://www.readfrog.app/)
+
+  Read Frog is an AI-powered language-learning platform centered on an open-source browser extension. It turns web pages and videos into an immersive study experience with bilingual page translation, streaming selection translation, context-aware explanations and article analysis, text-to-speech, and YouTube subtitle generation and translation—even for videos without captions. Users can bring their own models from more than 20 AI providers or use Read Frog's built-in AI.
+
+- Custom AI Actions turn selected text into reusable tools for dictionaries, explanations, rewriting, and other workflows; their structured results can be mapped directly into Notebase.
+- Vocabulary, definitions, example sentences, translations, and reading notes can be saved without leaving the current page, then converted into flashcards with customizable templates.
+- A sync engine keeps cards, review logs, and scheduling state synchronized across devices and renders review sessions from live synchronized data.
+- Its end-to-end spaced-repetition system uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) with the FSRS-6 model, middleware-based scheduling, and policy-driven review queues. A per-Notebase optimizer personalizes scheduling from review history.
+- See [pricing](https://www.readfrog.app/pricing) and the public [roadmap](https://feedback.readfrog.app/roadmap).
+- The [GPLv3-licensed browser extension](https://github.com/mengxi-ream/read-frog) is available for Chrome, Edge, and Firefox.
+
 #### [Rember](https://www.rember.com/)
 
   A simple yet powerful spaced repetition system designed to help you remember more. It uses AI to automatically generate cards and FSRS-5 to schedule your reviews.
