@@ -98,6 +98,15 @@ An Anki compatible online Flashcard platform that supports PWA install.
 - Offline-first by default; sync securely across devices with a **Pro** subscription  
 - Import Anki decks or export `.mochi` packages for backup and sharing
 
+#### [MySummaries](https://mysummaries.app)
+
+  MySummaries builds a spatial study board from a learner's own material — PDFs, slides, pasted text and photos of handwritten pages — and generates the review material from that board rather than from a shared deck. Alongside flashcards it writes timed written papers, audio lectures with word-level read-along, and a spoken oral examiner that asks follow-up questions over WebRTC and marks the transcript against a rubric. Web and iOS, free tier with usage-metered credits after that.
+
+- Uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) for FSRS-6 scheduling with the default weights, across per-topic, per-subject and cross-subject due queues.
+- `enable_short_term: false` — a lapsed card comes back within the same session through the drill queue rather than as a sub-day `due`.
+- `enable_fuzz: true` and `maximum_interval: 365`, so a batch of cards generated together stops arriving together, and nothing is scheduled beyond a year.
+- Questions missed in a written paper or an oral are turned back into cards automatically, deduplicated against the existing deck.
+
 #### [Origa](https://github.com/yurvon-screamo/origa)
 
   Open source Japanese learning app for desktop (Windows, Linux, macOS) and Android. Built-in dictionaries, kanji, grammar, and phrases — all scheduled with FSRS. Russian and English. Offline-first.
