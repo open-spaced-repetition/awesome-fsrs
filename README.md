@@ -242,6 +242,14 @@ Intended for language learning, HSRS continuously refreshes card content using a
 
 Used to power [grsly](https://grsly.com/), a tool for learning Japanese grammar.
 
+#### [Jiaci (AI加词)](https://jiaci.app)
+
+**Jiaci** is an open-source web app for Chinese speakers learning English vocabulary: pick a built-in word list (IELTS, TOEFL, GRE, CET, academic and everyday-life lists) or import your own, study a daily queue of cards, and rate each one *know* / *fuzzy*.
+
+- Uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) to schedule reviews (no learning steps, day-level scheduling); a word whose scheduled interval reaches a configurable threshold is marked mastered.
+- Word entries (core meaning, senses, examples, collocations, word family, mnemonics, etymology) are pre-generated offline by an LLM and shared by all users; server-side neural TTS for words, examples and definitions.
+- Chinese UI only. [Source on GitHub](https://github.com/leoon-hu/jiaci) (MIT; Next.js + PostgreSQL).
+
 #### [KaChiKa](https://kachika.app/)
 
   KaChiKa is an AI-powered photo-to-flashcard app for language learners. Snap a photo of any object — a coffee cup, a cat, a street sign — and KaChiKa extracts the vocabulary, generates real-world example sentences, and schedules reviews using FSRS.
