@@ -292,6 +292,13 @@ Used to power [grsly](https://grsly.com/), a tool for learning Japanese grammar.
 
   LinGoat uses [py-fsrs](https://github.com/open-spaced-repetition/py-fsrs) (FSRS-6) for scheduling.
 
+#### [MemPro](https://mempro.me)
+
+  MemPro is a web app for learning programming with spaced repetition. Besides concept cards, it has code exercises: you write C++, Python, Rust, TypeScript or Zig in the browser, and a sandbox runs tests against your solution. You then rate how well you remembered the card.
+
+- Uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) for FSRS-6 scheduling with the default weights and 90% desired retention, at day granularity (short-term steps off).
+- All topics are free to study. With a subscription, you can create your own topics, decks and cards in an editor or through an MCP server for Claude Code and Cursor.
+
 #### [Rhythm Word](https://rhythmword.com)
 
   Rhythm Word is an iOS vocabulary learning app that helps users build and retain English vocabulary through AI-generated context sentences and spaced repetition.
