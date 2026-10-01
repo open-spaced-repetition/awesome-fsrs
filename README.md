@@ -269,6 +269,15 @@ Used to power [grsly](https://grsly.com/), a tool for learning Japanese grammar.
 - Word entries (core meaning, senses, examples, collocations, word family, mnemonics, etymology) are pre-generated offline by an LLM and shared by all users; server-side neural TTS for words, examples and definitions.
 - Chinese UI only. [Source on GitHub](https://github.com/leoon-hu/jiaci) (MIT; Next.js + PostgreSQL).
 
+#### [Jolito](https://github.com/smolkaj/jolito)
+
+  Jolito is a calm, beautifully crafted Spanish vocabulary and grammar app designed as the antidote to clunky "tax-software" flashcards and bloated freemium gamification. It offers a distraction-free, tactile study experience with high-fidelity Mexican Spanish audio, seamless cross-device cloud sync, and zero recurring subscriptions or ads (free on the web, one-time purchase on mobile).
+
+- **Simplicity Above All:** Fast, clutter-free practice sessions with fluid gestures, keyboard-first navigation, and zero cognitive overhead.
+- **FSRS Memory Engine:** Uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) client-side to eliminate SM-2 ease decay on irregular grammar conjugations, with automatic bidirectional sibling burying.
+- **Studio Audio & Spoken Recall:** High-fidelity neural pronunciation and speech evaluation, aggressively pre-cached for instant offline study.
+- **Local-First & Multi-Device:** Instant cross-device cloud sync and lossless Anki `.apkg` imports, available on Web, iOS, and Android.
+
 #### [KaChiKa](https://kachika.app/)
 
   KaChiKa is an AI-powered photo-to-flashcard app for language learners. Snap a photo of any object — a coffee cup, a cat, a street sign — and KaChiKa extracts the vocabulary, generates real-world example sentences, and schedules reviews using FSRS.
