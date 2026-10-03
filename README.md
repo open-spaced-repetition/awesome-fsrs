@@ -176,7 +176,7 @@ An Anki compatible online Flashcard platform that supports PWA install.
 
   - [LearnKit](https://github.com/ctrlaltwill/LearnKit) helps you remember what you write. It brings flashcards, note review, tests, and AI-assisted study tools into Obsidian, so your vault becomes a place to learn, not just store information. It uses FSRS-6 for spaced repetition scheduling.
 
-  - [True Recall](https://github.com/pieralukasz/true-recall) is a next-gen spaced repetition system for Obsidian with AI card generation, local-first SQLite storage, Anki import/export, projects system, and comprehensive analytics. It uses FSRS-6 via [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs).
+  - [True Recall](https://github.com/pieralukasz/true-recall) is an Anki-like spaced repetition system for Obsidian on desktop, iOS and Android, with local-first SQLite storage, free cross-device sync, Anki import (including review history) and export, AI card generation, and detailed analytics. It uses FSRS-6 via [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs).
 
 #### [Org-srs](https://github.com/bohonghuang/org-srs)
 
