@@ -82,6 +82,13 @@ An Anki compatible online Flashcard platform that supports PWA install.
 - Free and paid tiers
 - FSRS scheduled flashcard reviews that rely on [rs-fsrs](https://github.com/open-spaced-repetition/rs-fsrs)
 
+#### [Loudwalk](https://loudwalk.com)
+
+  Loudwalk is a native iPhone and Mac flashcard app that asks your cards out loud: it speaks the day's due cards, listens to your spoken answer, grades it against the answer written on the card, and schedules it. It imports Anki `.apkg` and `.colpkg` files with media, review history and each deck preset's FSRS parameters, so the queue is the one you left, and the Mac app writes a `.colpkg` or an `.apkg` to go back. Reviewing on screen is free; the voice tutor is a subscription.
+
+- FSRS-6, with the parameters and desired retention of each Anki deck preset; 17- and 19-value sets left by FSRS-4.5 and FSRS-5 are read the way Anki reads them. No optimizer runs in the app.
+- The memory model is a Swift port of [py-fsrs](https://github.com/open-spaced-repetition/py-fsrs). Around it, the rules of Anki's v3 scheduler (learning steps, fuzz, daily limits, queue order) are held on every build to answers recorded from Anki itself: 750 answer transitions, 2,862 fuzz draws and 8 queue snapshots replay identically.
+
 #### [Markji](https://www.markji.com/)
 
   Markji is a flashcard application designed to help users efficiently memorize and retain information. It's particularly popular for language learning, exam preparation, and other memorization-heavy subjects. The app is developed by MaiMemo Inc., the company also behind the popular language-learning APP in China, [MaiMemo](https://www.maimemo.com/).
