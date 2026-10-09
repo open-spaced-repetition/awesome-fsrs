@@ -165,6 +165,14 @@ An Anki compatible online Flashcard platform that supports PWA install.
 
   spacedrep uses [py-fsrs](https://github.com/open-spaced-repetition/py-fsrs).
 
+#### [StudyDaily](https://www.studydaily.app/en)
+
+  StudyDaily is a flashcard app for iPhone, iPad, Mac, Android, Windows and the web, built around FSRS-6. It imports Anki `.apkg` and `.colpkg` files with scheduling state, FSRS memory (stability and difficulty), deck presets, review history and media, so imported cards keep their due dates instead of resetting to new, and exports back to `.apkg`, `.colpkg` or CSV. A [published round-trip test](https://www.studydaily.app/en/guides/anki-to-studydaily-migration-test) moves a deck built with Anki 26.9.3 into StudyDaily and back, and compares every card and review log entry. Study, import and export work offline without an account; optional Premium adds sync between devices.
+
+- Uses the official Dart package [fsrs](https://github.com/open-spaced-repetition/dart-fsrs) with the 21 FSRS-6 parameters; the rating buttons show the next interval before you answer.
+- Imported Anki presets keep their desired retention, learning steps and FSRS parameters.
+- Fuzz is applied with a seed derived from each review event, so replaying the review log on another device lands on the same due dates.
+
 ### Note-taking
 
 #### [Logseq](https://logseq.com/)
