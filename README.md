@@ -329,6 +329,17 @@ Used to power [grsly](https://grsly.com/), a tool for learning Japanese grammar.
 
   Rhythm Word implements FSRS-4.5 for intelligent review scheduling.
 
+#### [Verbamor](https://verbamor.com)
+
+  Verbamor is an iOS app for people who take language lessons or have real conversations in a new language. It records the lesson, transcribes it, and turns the words and phrases you met into flashcards, each with a picture, an example sentence and audio. It covers Spanish, French, Italian, Portuguese and Russian.
+
+- Uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) (FSRS-6) at 90% desired retention to schedule every card.
+- A nightly job refits each learner's FSRS-6 parameters from their own review history once they have enough reviews, and keeps the new parameters only when they fit better.
+- Cards come from your own lessons, plus a starter deck of about 650 common words in each language.
+- Paid app, with a 7-day free trial on the annual plan. iPhone, iPad and Apple Watch.
+
+Available on [App Store](https://apps.apple.com/app/id6789744088).
+
 #### [Word2Sentence](https://github.com/ArabidopsisDev/Word2Sentence)
 
 Word2Sentence is a local-first Windows desktop app for learning vocabulary through sentence production. AI generates multilingual writing scenarios, provides inline feedback and post-answer usage cards, and automatically evaluates target-word recall without self-rating buttons.
