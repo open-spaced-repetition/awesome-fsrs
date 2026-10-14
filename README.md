@@ -270,6 +270,14 @@ Available on [App Store](https://apps.apple.com/app/id6793255945) and [Google Pl
 
   Chessbook overhauled its spaced repetition system [using FSRS-4.5](https://x.com/chessbookcom/status/1805137108991946775).
 
+#### [Gnoseed](https://gnoseed.com)
+
+  Gnoseed is a web flashcard app (installable as a PWA) for engineers studying DevOps, AI&LLM, Cloud, Security and certification topics. It has more than 6,600+ ready-made multiple-choice cards in 70+ decks, plus open-answer interview decks. Free; it works offline and without an account, and an optional Google sign-in syncs progress across devices.
+
+- Uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) with the FSRS-6 default weights and 90% desired retention; no per-user optimizer runs. FSRS is the default for new installs, SM-2 is selectable behind the same adapter, and switching resets scheduling state.
+- No rating buttons in multiple-choice mode: a wrong answer is `Again`, a correct one is `Easy`, `Good` or `Hard` by answer time (4 s and 10 s by default, longer for scenario decks). In recall mode the options are hidden and the learner grades themselves: "I knew it" is `Good`, "I didn't know" is `Again`.
+- [How Gnoseed schedules with FSRS](https://gnoseed.com/algorithms/fsrs), with an interval calculator.
+
 #### [HSRS](https://github.com/satchelspencer/hsrs) 
 
 Intended for language learning, HSRS continuously refreshes card content using a system of parameterized grammar cards. Individual reviews of a card reschedule all sub-cards in the parameter tree using bayesian statistics to estimate the contributions of each. Changes to stability from FSRS are interpolated in retrievability-space according to their probability. 
