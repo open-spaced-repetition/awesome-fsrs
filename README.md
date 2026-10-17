@@ -73,6 +73,21 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 
   Discito uses its own Swift FSRS-6 port (validated for parity against [py-fsrs](https://github.com/open-spaced-repetition/py-fsrs)), with the parameter optimizer bridging [fsrs-rs](https://github.com/open-spaced-repetition/fsrs-rs) via swift-bridge FFI.
 
+#### [Dushed](https://dushed.com/)
+
+  Dushed is a web app that keeps your flashcards, notes, bookmarks, web feeds, Kindle highlights and files in one private library. A flashcard can refer to the note, web page, file or PDF page that it came from, and these references show during a review. Full-text search covers the whole library, including the text inside PDF files. A [demo](https://demo.dushed.com) is available without an account.
+
+- Uses its own Go implementation of FSRS.
+- Three ratings: Forgot, Good and Easy. Each rating shows the next due date before you select it.
+- Imports Anki decks or CSV files. You can export flashcards as CSV or `.tar` at any time.
+- The rest of the library:
+  - Notes in Markdown, with images, code and attached files.
+  - Kindle highlights and notes, imported from the Kindle notebook.
+  - Web feeds (RSS, Atom and JSON Feed), with OPML import and export.
+  - Bookmarks, with browser HTML and CSV import and export.
+  - Files of any type; images, PDF, audio and video open in the browser.
+- Flashcards need the Pro plan ($12/month). But there's a generous 30-day trial with no credit card required. Bookmarks are free up to 10,000.
+
 #### [Flipnem](https://flipnem.com/)
 
 An Anki compatible online Flashcard platform that supports PWA install.
