@@ -328,6 +328,12 @@ Used to power [grsly](https://grsly.com/), a tool for learning Japanese grammar.
 
   The app consists of a Chrome extension, website for now. A mobile app is under development. It can automatically capture LeetCode question submissions and schedule your next review using an Anki-like experience. It supports both Leetcode and Leetcode China (力扣).
 
+#### [Lexkite](https://lexkite.com/en/)
+
+  Lexkite is a free web app (installable PWA) for learning English exam vocabulary for IELTS, TOEIC and TOEFL, with an interface in 15 languages. Reviews work offline and without an account. Decks can be exported to and imported from Anki `.apkg` files, optionally keeping each card's FSRS memory state.
+
+  Lexkite uses its own JavaScript implementation of FSRS-5 (default parameters, adjustable desired retention 0.8–0.95).
+
 #### [LinGoat](https://lingoat.app/)
 
   LinGoat is an AI-powered language learning app that scores every word and grammar rule in every sentence you translate. Each item gets its own independent FSRS schedule, so reviews are driven by precise per-item recall data rather than sentence-level outcomes.
@@ -440,3 +446,4 @@ Word2Sentence is a local-first Windows desktop app for learning vocabulary throu
 #### Leitner System
 
   Leitner sytem sorts flashcard into groups according to how well the learner knows each one in Leitner's learning box. The learners try to recall the answer written on a flashcard. If they succeed, the card is sent to the next box. If they fail, the card is sent back to the first box. In each successive box, the amount of time before the learner is required to revisit the cards increases. (More: [Wikipedia](https://en.wikipedia.org/wiki/Leitner_system))
+
