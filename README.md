@@ -359,6 +359,18 @@ Used to power [grsly](https://grsly.com/), a tool for learning Japanese grammar.
 - Its own JavaScript implementation of FSRS-4.5 with the default weights and 90% desired retention.
 - Six study modes (flip, multiple choice, typing, listening, gap fill, mixed); a right word in the wrong form counts as Hard.
 
+#### [RePoker](https://www.repokerpro.com/en)
+
+  RePoker is a preflop trainer for No-Limit Texas Hold'em on iOS and Android. Players study complete 13x13 preflop range charts (opens, big-blind defense and 3-bet defense, including mixed strategies), then practice their own decisions in simulated hands. It is a study tool with no real-money play.
+
+- Uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) v5 (FSRS-6 default weights, no per-user optimizer) with 90% desired retention, short-term steps and fuzz enabled, and a 365-day maximum interval.
+- No rating buttons. In Learn (preflop range study), a correct answer within the time limit (7 seconds by default, adjustable per deck) is `Easy` unless the previous review was `Again` or `Hard`; any other correct answer is `Good`, and a wrong answer is `Again`. `Hard` is never produced.
+- In Practice (simulated hands), grading has two levels and ignores time: getting the whole action line right is `Good`, anything else is `Again`.
+- Progress is stored on device and core training works offline.
+- Commercial app: free to download with a guided introduction; full training requires a subscription.
+
+Available on [App Store](https://apps.apple.com/app/id6749474456) and [Google Play](https://play.google.com/store/apps/details?id=fun.codechat.poker.repoker).
+
 #### [Rhythm Word](https://rhythmword.com)
 
   Rhythm Word is an iOS vocabulary learning app that helps users build and retain English vocabulary through AI-generated context sentences and spaced repetition.
