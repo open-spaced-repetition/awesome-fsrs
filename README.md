@@ -299,6 +299,15 @@ Intended for language learning, HSRS continuously refreshes card content using a
 
 Used to power [grsly](https://grsly.com/), a tool for learning Japanese grammar.
 
+#### [Japanese Learning](https://japanese-learning.ch)
+
+Japanese Learning is a web course for German speakers preparing for JLPT N5: lessons on kana, vocabulary, kanji and grammar, explained in German, with a spaced-repetition review queue.
+
+- Uses [py-fsrs](https://github.com/open-spaced-repetition/py-fsrs) (FSRS-6) to schedule reviews of kana, kanji, vocabulary and grammar cards (default parameters, 90% desired retention, fuzzing on).
+- Vocabulary also has a separate German-to-Japanese production queue, with its own FSRS state per card.
+- Undo of the last rating, daily limits for new cards and reviews, and a listening mode (audio first, text hidden).
+- Currently free, no ads. Reviews need a free account. German interface only.
+
 #### [Jiaci (AI加词)](https://jiaci.app)
 
 **Jiaci** is an open-source web app for Chinese speakers learning English vocabulary: pick a built-in word list (IELTS, TOEFL, GRE, CET, academic and everyday-life lists) or import your own, study a daily queue of cards, and rate each one *know* / *fuzzy*.
