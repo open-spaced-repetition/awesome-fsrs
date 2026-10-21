@@ -190,6 +190,13 @@ An Anki compatible online Flashcard platform that supports PWA install.
 
 ### Note-taking
 
+#### [CuaderNote](https://cuadernote.com/)
+
+  CuaderNote is a native notes and study app for Mac, iPhone and iPad. It combines a block editor, a PDF, EPUB and web article reader, and a freehand notebook with Apple Pencil support. Notes can be turned into flashcards, and highlights from PDFs and EPUBs go into the same review queue. Cards are stored on the device and sync through iCloud, so reviews work offline. The current version is free on the App Store, with no in-app purchases or subscriptions.
+
+  - FSRS-6 with the default parameters and 90% desired retention. No optimizer runs in the app.
+  - Uses its own Swift port of [py-fsrs](https://github.com/open-spaced-repetition/py-fsrs), checked against py-fsrs's reference review vectors in its unit tests.
+
 #### [Logseq](https://logseq.com/)
 
   A privacy-first, open-source platform for knowledge management and collaboration. It focuses on privacy, longevity, and user control.
