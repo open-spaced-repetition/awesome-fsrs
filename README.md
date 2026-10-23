@@ -188,6 +188,13 @@ An Anki compatible online Flashcard platform that supports PWA install.
 - Imported Anki presets keep their desired retention, learning steps and FSRS parameters.
 - Fuzz is applied with a seed derived from each review event, so replaying the review log on another device lands on the same due dates.
 
+#### [Terminus](https://terminus-cards.pages.dev/?tag=awesome-fsrs)
+
+  Terminus is a flashcard app for iPhone and iPad that you review from a Lock Screen and Home Screen widget. Free on the [App Store](https://apps.apple.com/app/id6822216429), no account.
+
+- FSRS-6 (a Swift port of py-fsrs v6.3.2) is the only scheduler, with the default parameters.
+- A set can have a test date: reviews are capped at halfway to the test so the gaps shrink as it gets closer, and the app shows readiness as the set's average predicted recall.
+
 ### Note-taking
 
 #### [CuaderNote](https://cuadernote.com/)
