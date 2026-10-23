@@ -276,6 +276,12 @@ Native incremental reading with integrated FSRS scheduling, powered by [ts-fsrs]
 - Speech-based JLPT grammar flashcard reviews: translate English prompts into Japanese aloud, applying grammar points in context while reinforcing memory through speech.
 - [Speech-based Japanese verb conjugation practice](https://www.youtube.com/watch?v=6ehilb5dzyc) with instant feedback to strengthen active recall of verb forms and speaking confidence.
 
+#### [BiliMind Desktop](https://github.com/Odilient/bilimind-desktop)
+
+BiliMind Desktop is an open-source (AGPL-3.0) app that turns a folder of lecture slides, past exam papers or notes into a course: lessons, quizzes checked against the source files, a study plan and an Anki-importable deck. Each course's review schedule is dated back from the exam and exported as an `.ics` calendar; the course page shows what is due today and reschedules locally as you answer.
+
+- Uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) 5.4.2 with the default parameters (fuzz off, short-term steps on). One serialised FSRS state per item drives both the calendar export and the in-page "Due today" list.
+
 #### [BrioVocab](https://briovocab.com)
 
 BrioVocab is a French vocabulary app for CEFR A1–B2 learners, built around FSRS-6. It offers ready-made illustrated word sets for each level, plus the option to add your own words and phrases. Two study modes: Flip Cards (illustrated flashcards) and Super Coach (active recall exercises).
