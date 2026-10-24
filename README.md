@@ -363,6 +363,16 @@ Japanese Learning is a web course for German speakers preparing for JLPT N5: les
 
   Lexkite uses its own JavaScript implementation of FSRS-5 (default parameters, adjustable desired retention 0.8–0.95).
 
+#### [Lexpad](https://lexpad.app/features/smart-schedule)
+
+  Lexpad is an AI vocabulary notebook for the words and phrases a learner meets, in any pair of 81 languages. The learner adds the words; AI writes each card (meanings, examples with translations, pronunciation, level). Words also come in from a browser extension (including clicking a word in YouTube subtitles), a Mac and Windows app, Kindle vocab.db and My Clippings, Anki `.apkg` and Quizlet exports, or ChatGPT and Claude through a remote MCP server.
+
+- Five Leitner boxes are the default. The optional Smart schedule (Beta, chosen per notebook) is Lexpad's own implementation of FSRS-6 with the standard parameters, with desired retention 90% by default (80–97%).
+- Personal tuning runs about once a month and is kept only if it predicts the learner's newest answers better.
+- Two answer buttons, right or wrong. Smart schedule is free; Lexpad has a free plan and an optional Pro plan.
+
+Available on the [web](https://app.lexpad.app), [Google Play](https://play.google.com/store/apps/details?id=app.lexpad.android), Mac and Windows ([Microsoft Store](https://apps.microsoft.com/detail/9NSFK2ZK6PFS)), and as an extension for Chrome, Edge and Firefox.
+
 #### [LinGoat](https://lingoat.app/)
 
   LinGoat is an AI-powered language learning app that scores every word and grammar rule in every sentence you translate. Each item gets its own independent FSRS schedule, so reviews are driven by precise per-item recall data rather than sentence-level outcomes.
