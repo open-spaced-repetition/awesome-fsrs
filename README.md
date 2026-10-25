@@ -412,7 +412,7 @@ Available on [App Store](https://apps.apple.com/app/id6749474456) and [Google Pl
 
 - Uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) (FSRS-6) on the device, through JavaScriptCore, at 90% desired retention by default.
 - Each answer gets a grade, from Smort's answer check or from the learner, and the grade becomes the FSRS rating.
-- Paid app (Smort Plus), with a 7-day free trial. iPhone, iOS 26 or later.
+- Paid app (Smort Plus), with a 7-day free trial. iPhone, iOS 26.4 or later.
 
 Available on [App Store](https://apps.apple.com/app/id6789021306).
 
