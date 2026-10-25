@@ -88,6 +88,14 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
   - Files of any type; images, PDF, audio and video open in the browser.
 - Flashcards need the Pro plan ($12/month). But there's a generous 30-day trial with no credit card required. Bookmarks are free up to 10,000.
 
+#### [Etude](https://zibhelina.github.io/etude/)
+
+  Etude is a free, open-source (MIT), self-hosted flashcard app where every card type is a small program. A card can generate fresh numbers to compute on every review, ask you to find the checkmate on a real board, play a chord on a piano, drag events onto a timeline, or draw a diagram; open answers can be graded by AI (your own API key, a local endpoint, or Sign in with ChatGPT), or not at all. It runs in the browser on desktop and phones (with a one-click Mac app), stores everything in a local SQLite database, and every action is also a CLI command with JSON output, so an AI agent can build and manage your decks. Source on [GitHub](https://github.com/Zibhelina/etude).
+
+- Uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) for FSRS-6 scheduling, with learning steps, fuzz and per-deck retention, limits and weights.
+- A deck can have an exam deadline: no card is scheduled past it, and cards you already know get one last review before it.
+- Imports Anki `.apkg` and `.colpkg` files with review history and media.
+
 #### [Flipnem](https://flipnem.com/)
 
 An Anki compatible online Flashcard platform that supports PWA install.
