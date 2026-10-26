@@ -424,6 +424,16 @@ Available on [App Store](https://apps.apple.com/app/id6749474456) and [Google Pl
 
   Rhythm Word implements FSRS-4.5 for intelligent review scheduling.
 
+#### [Smort](https://getsmort.com)
+
+  Smort is an iPhone app for language learners who understand more than they can say. You talk out loud with Smort, an AI conversation partner, keep the words you want from each chat as flashcards, and answer them out loud from memory. It also imports Anki `.apkg` decks, with the study progress it supports.
+
+- Uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) (FSRS-6) on the device, through JavaScriptCore, at 90% desired retention by default.
+- Each answer gets a grade, from Smort's answer check or from the learner, and the grade becomes the FSRS rating.
+- Paid app (Smort Plus), with a 7-day free trial. iPhone, iOS 26.4 or later.
+
+Available on [App Store](https://apps.apple.com/app/id6789021306).
+
 #### [Verbamor](https://verbamor.com)
 
   Verbamor is an iOS app for people who take language lessons or have real conversations in a new language. It records the lesson, transcribes it, and turns the words and phrases you met into flashcards, each with a picture, an example sentence and audio. It covers Spanish, French, Italian, Portuguese and Russian.
