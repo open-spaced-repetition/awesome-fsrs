@@ -110,7 +110,7 @@ An Anki compatible online Flashcard platform that supports PWA install.
 Klappa is a free flashcard app for the web and macOS, built by a dental student for medical and dental students. It imports Anki `.apkg` decks with their note types, media and each card's schedule, and any Klappa deck can be studied as flashcards, multiple choice, typed answers or a graded test.
 
 - FSRS-6 via [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) for every review. Klappa decks target 95% retention with a 60-day maximum interval; decks studied through the Anki Portal keep their own FSRS settings.
-- An optional extra layer (FMSR-1) can adjust the next interval of a review card that has at least three reviews of history; in every other case the FSRS-6 schedule is used unchanged.
+- An extra scheduling layer, FMSR-1, can adjust the next interval of a review card that has at least three reviews of history; in every other case the FSRS-6 schedule is used unchanged.
 - Free with no paid tier; the Mac app studies offline; an MCP server lets Claude or ChatGPT create cards in your decks.
 
 #### [Loudwalk](https://loudwalk.com)
