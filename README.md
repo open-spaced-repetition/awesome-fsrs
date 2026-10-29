@@ -67,6 +67,16 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 - On import, Avorio can fit FSRS parameters to your own Anki review log rather than using generic defaults.
 - Avorio uses its own FSRS-5 implementation in a shared Rust core, exposed to SwiftUI through [UniFFI](https://github.com/mozilla/uniffi-rs).
 
+#### [Azri](https://azri.app/)
+
+  Azri (formerly Simple Anki) is a flashcard app for iPhone and iPad, free on the [App Store](https://apps.apple.com/app/apple-store/id1625870857?pt=124486958&ct=awesome-fsrs&mt=8). It makes cards from notes, photos and PDFs with AI, imports Anki `.apkg` decks and CSV files, and has an [MCP server](https://azri.app/mcp/) so Claude, ChatGPT and other AI apps can save cards to your decks. Reviews, manual cards and imports are free with no card limit; an optional Pro subscription adds cloud sync, unlimited AI generation, a web app and the MCP server.
+
+- Uses [swift-fsrs](https://github.com/open-spaced-repetition/swift-fsrs) (FSRS-5) on iPhone and iPad. The web app uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) 4.7, also FSRS-5, with the same presets.
+- Default FSRS-5 parameters. No optimizer runs, so the weights aren't fitted to your review history.
+- Presets: Default (90% desired retention, 365-day maximum interval), Aggressive (95%, 90 days) and Relaxed (85%, 365 days). Custom sets desired retention from 80% to 99%, a maximum interval of 30, 90, 180 or 365 days, and turns fuzz and short-term scheduling on or off.
+- Anki imports bring over the text of two fields per note as new cards. Review history and media aren't imported, so FSRS starts from your first review in Azri.
+- Cards saved through the MCP server start in the FSRS new state, like cards made in the app.
+
 #### [Discito](https://discito.app)
 
   Discito is a native iOS flashcard app built around FSRS-6, with iCloud sync, on-device AI card generation, lecture-audio-to-flashcards, image occlusion authoring, and full-fidelity `.apkg` import/export. One-time purchase, no subscription.
