@@ -105,6 +105,14 @@ An Anki compatible online Flashcard platform that supports PWA install.
 - Free and paid tiers
 - FSRS scheduled flashcard reviews that rely on [rs-fsrs](https://github.com/open-spaced-repetition/rs-fsrs)
 
+#### [Klappa](https://klappa.app/)
+
+Klappa is a free flashcard app for the web and macOS, built by a dental student for medical and dental students. It imports Anki `.apkg` decks with their note types, media and each card's schedule, and any Klappa deck can be studied as flashcards, multiple choice, typed answers or a graded test.
+
+- FSRS-6 via [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) for every review. Klappa decks target 95% retention with a 60-day maximum interval; decks studied through the Anki Portal keep their own FSRS settings.
+- An extra scheduling layer, FMSR-1, can adjust the next interval of a review card that has at least three reviews of history; in every other case the FSRS-6 schedule is used unchanged.
+- Free with no paid tier; the Mac app studies offline; an MCP server lets Claude or ChatGPT create cards in your decks.
+
 #### [Loudwalk](https://loudwalk.com)
 
   Loudwalk is a native iPhone and Mac flashcard app that asks your cards out loud: it speaks the day's due cards, listens to your spoken answer, grades it against the answer written on the card, and schedules it. It imports Anki `.apkg` and `.colpkg` files with media, review history and each deck preset's FSRS parameters, so the queue is the one you left, and the Mac app writes a `.colpkg` or an `.apkg` to go back. Reviewing on screen is free; the voice tutor is a subscription.
