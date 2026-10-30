@@ -377,6 +377,13 @@ Japanese Learning is a web course for German speakers preparing for JLPT N5: les
 
   Supports English, Japanese, French, Korean, Italian, Spanish, and Chinese. All photos are stored locally on device for privacy. Available on iOS, Android, and APK.
 
+#### [LangOrbit](https://langorbit.com)
+
+LangOrbit is a web app for learning English or Spanish by reading real books: a translation beside the text, a tap on any word saves it, and the words you save come back in a short daily lesson.
+
+- Own C# implementation of FSRS-6 (21 weights, learnable decay), checked against the py-fsrs 6.3.1 reference vectors with its default parameters; desired retention 0.9. Closed source.
+- Words and phrases saved from reading are scheduled by FSRS. Review history is logged for a future per-user optimizer; there is none yet.
+
 #### [LeetFlash](https://leetflash.com/)
 
   LeetFlash is a flashcard review app for review LeetCode algorithm questions. It leverages TS-FSRS for scheduling flashcards.
