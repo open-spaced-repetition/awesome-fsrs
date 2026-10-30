@@ -417,6 +417,16 @@ Available on the [web](https://app.lexpad.app), [Google Play](https://play.googl
 - Uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) for FSRS-6 scheduling with the default weights and 90% desired retention, at day granularity (short-term steps off).
 - All topics are free to study. With a subscription, you can create your own topics, decks and cards in an editor or through an MCP server for Claude Code and Cursor.
 
+#### [Misu](https://misu.io/)
+
+  Misu is a language learning flashcard app for iPhone and Android. It offers ready-made decks covering 1,500 common words in ten languages, and creates custom flashcards from typed words or scanned text, with meanings, example sentences, artwork and audio. Includes a visual flashcard editor and offline reviews.
+
+- Uses its own TypeScript implementation of FSRS-6, with memory-model formulas based on [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) and a parameter optimizer ported from [fsrs-rs](https://github.com/open-spaced-repetition/fsrs-rs).
+- Schedules every flashcard with desired retention fixed at 90%.
+- Automatically fits parameters to each learner's review history monthly, adopting new parameters only when they improve recall prediction.
+- Reviews use two swipe responses: remembered (Good) or forgotten (Again).
+- [How Misu uses FSRS](https://misu.io/guides/fsrs/).
+
 #### [Ordkort](https://ordkort.com)
 
   Ordkort is a free, open-source ([AGPL-3.0](https://github.com/silicq/ordkort)) web app for learning vocabulary in 60 languages. It offers ready word lists for 29 topics at CEFR levels A1–C1, written by AI and checked against dictionaries (the official ordbokene.no for Norwegian, Wiktionary for other languages), plus a learner's dictionary, a grammar book and a translator that explains every word. No account, no ads, no tracking: cards live in the browser, devices sync end-to-end encrypted, and it works offline as a PWA.
