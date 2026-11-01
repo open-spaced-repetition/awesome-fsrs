@@ -78,6 +78,14 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 - Anki imports bring over the text of two fields per note as new cards. Review history and media aren't imported, so FSRS starts from your first review in Azri.
 - Cards saved through the MCP server start in the FSRS new state, like cards made in the app.
 
+#### [Deckumi](https://deckumi.app/fsrs-flashcards)
+
+  Deckumi is a web flashcard app that uses AI to create editable question-and-answer and cloze cards from PDFs and text notes, which you can check against their source before studying. The interface is available in 14 languages. Fixed examples are free to explore; AI generation uses credits from paid monthly memberships.
+
+- Uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) 5.4.2 (FSRS-6) with default parameters and 90% desired retention. No optimizer runs, so the weights aren't fitted to your review history.
+- Four ratings: Again, Hard, Good and Easy.
+- There is no Anki or Quizlet deck import, so FSRS starts from your first review in Deckumi.
+
 #### [Discito](https://discito.app)
 
   Discito is a native iOS flashcard app built around FSRS-6, with iCloud sync, on-device AI card generation, lecture-audio-to-flashcards, image occlusion authoring, and full-fidelity `.apkg` import/export. One-time purchase, no subscription.
