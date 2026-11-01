@@ -16,8 +16,9 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
   - Scheduler (v5): [rs-fsrs](https://github.com/open-spaced-repetition/rs-fsrs)
   - Scheduler (v6) + Optimizer: [fsrs-rs](https://github.com/open-spaced-repetition/fsrs-rs)
     - Run in browsers: [fsrs-browser](https://github.com/open-spaced-repetition/fsrs-browser)
+    - Optimizer for Node.js, browsers & Cloudflare Workers: [binding](https://github.com/open-spaced-repetition/ts-fsrs/tree/main/packages/binding)
 - TypeScript
-  - Scheduler (v6): [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs)
+  - Scheduler (v3-v7): [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs)
 - Go
   - Scheduler (v5): [go-fsrs](https://github.com/open-spaced-repetition/go-fsrs)
 - Java
@@ -170,15 +171,15 @@ Klappa is a free flashcard app for the web and macOS, built by a dental student 
 - Includes interactive Bloom taxonomy pyramid, Feynman method AI tutor, and 350+ German study programs with context-aware generation.
 - Free tier includes FSRS-6 spaced repetition forever (50 AI cards/month). Pro €8/mo, Evo €14/mo with student discounts.
 
-#### [Read Frog](https://www.readfrog.app/)
+#### [Read Frog](https://www.readfrog.app/?utm_source=github&utm_medium=readme&utm_campaign=awesome-fsrs&utm_content=en)
 
   Read Frog is an AI-powered language-learning platform centered on an open-source browser extension. It turns web pages and videos into an immersive study experience with bilingual page translation, streaming selection translation, context-aware explanations and article analysis, text-to-speech, and YouTube subtitle generation and translation—even for videos without captions. Users can bring their own models from more than 20 AI providers or use Read Frog's built-in AI.
 
 - Custom AI Actions turn selected text into reusable tools for dictionaries, explanations, rewriting, and other workflows; their structured results can be mapped directly into Notebase.
 - Vocabulary, definitions, example sentences, translations, and reading notes can be saved without leaving the current page, then converted into flashcards with customizable templates.
 - A sync engine keeps cards, review logs, and scheduling state synchronized across devices and renders review sessions from live synchronized data.
-- Its end-to-end spaced-repetition system uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) with the FSRS-6 model, middleware-based scheduling, and policy-driven review queues. A per-Notebase optimizer personalizes scheduling from review history.
-- See [pricing](https://www.readfrog.app/pricing) and the public [roadmap](https://feedback.readfrog.app/roadmap).
+- Its end-to-end spaced-repetition system uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) with the FSRS-7 model, middleware-based scheduling, and policy-driven review queues. A per-Notebase optimizer personalizes scheduling from review history.
+- See [pricing](https://www.readfrog.app/pricing?utm_source=github&utm_medium=readme&utm_campaign=awesome-fsrs&utm_content=en) and the public [roadmap](https://feedback.readfrog.app/roadmap?utm_source=github&utm_medium=readme&utm_campaign=awesome-fsrs&utm_content=en).
 - The [GPLv3-licensed browser extension](https://github.com/mengxi-ream/read-frog) is available for Chrome, Edge, and Firefox.
 
 #### [Rember](https://www.rember.com/)
