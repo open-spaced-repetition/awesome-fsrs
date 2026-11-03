@@ -300,6 +300,15 @@ Klappa is a free flashcard app for the web and macOS, built by a dental student 
 
 ### Incremental Reading
 
+#### [Bundle](https://bundle.ink/)
+
+  Bundle is a read-later app for iPhone that helps you remember what you read. You save articles from any app or from Chrome and read them offline with highlights. At the end of each article, a quick check asks two to eight questions about it, depending on its length. The questions you keep become cards, and FSRS schedules them in a short daily review. An app for Android e-ink tablets like Boox uses the same account and cards. 14-day free trial on the [App Store](https://apps.apple.com/app/id6817279885), then a subscription.
+
+- FSRS-6 is the only scheduler: a Swift port of [py-fsrs](https://github.com/open-spaced-repetition/py-fsrs) 6.3.2, checked against py-fsrs's own test values in the unit tests. The Android app has a Kotlin port checked against the same values.
+- Default parameters and 90% desired retention, with one 10-minute learning step and one 10-minute relearning step. No optimizer runs yet.
+- Fuzz follows py-fsrs, so cards from the same article don't all come back on the same day.
+- A free [FSRS simulator](https://bundle.ink/tools/fsrs) shows how the intervals grow with each answer.
+
 #### [Foliole](https://github.com/campfirium/foliole)
 
 Foliole is an approachable incremental reading app for making reading actually complete.
