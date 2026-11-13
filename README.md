@@ -78,6 +78,16 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 - Anki imports bring over the text of two fields per note as new cards. Review history and media aren't imported, so FSRS starts from your first review in Azri.
 - Cards saved through the MCP server start in the FSRS new state, like cards made in the app.
 
+#### [Cognito](https://cognitosystem.com/)
+
+  Cognito is a native study app for iPhone, iPad and Mac with an Apple Watch companion, free on the [App Store](https://apps.apple.com/app/id6739693298). It makes editable flashcards with AI from a topic, pasted text or a photo, imports Anki `.apkg` decks, and syncs through iCloud without an account. An Exam Plan turns an exam date and the current FSRS schedule into a daily target without changing the schedule itself. Manual cards, FSRS review, Exam Plans and 10 AI generation batches a month are free with no card limit; an optional Premium subscription adds more AI generation, PDF, audio and web sources, and an AI tutor.
+
+- Uses its own Swift implementation of FSRS-6 (21 parameters) on iPhone, iPad and Mac.
+- On iPhone and iPad, an on-device optimizer fits the parameters to your own review history once you have about 200 reviews. It keeps the fitted parameters only if they predict your reviews better than the defaults. The Mac app uses the default parameters.
+- Desired retention is set on iPhone and iPad from 70% to 97%; the default is 90%. Four ratings: Again, Hard, Good and Easy.
+- Intervals of three days or more get Anki-style fuzz. Same-day reviews use FSRS-6 short-term scheduling.
+- Anki imports render note templates, including cloze deletions, and bring over images and tags. Review history, scheduling state and audio aren't imported, so FSRS starts from your first review in Cognito.
+
 #### [Deckumi](https://deckumi.app/fsrs-flashcards)
 
   Deckumi is a web flashcard app that uses AI to create editable question-and-answer and cloze cards from PDFs and text notes, which you can check against their source before studying. The interface is available in 14 languages. Fixed examples are free to explore; AI generation uses credits from paid monthly memberships.
