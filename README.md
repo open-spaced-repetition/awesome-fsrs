@@ -459,6 +459,16 @@ Available on the [web](https://app.lexpad.app), [Google Play](https://play.googl
 - Its own JavaScript implementation of FSRS-4.5 with the default weights and 90% desired retention.
 - Six study modes (flip, multiple choice, typing, listening, gap fill, mixed); a right word in the wrong form counts as Hard.
 
+#### [Polidict](https://polidict.com)
+
+Polidict is a vocabulary app for the words and phrases a learner meets in real life. Words are saved from the phone, the web app, Chrome, Safari or Raycast (or from ChatGPT and Claude through a remote MCP server), and Polidict fills in meanings, translations, examples, pronunciation and an image.
+
+- Uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) 5.4.2 with FSRS-6 weights, 90% desired retention, no fuzz, learning steps of 1 and 10 minutes. The same scheduler runs on the backend and offline in the mobile app.
+- Each meaning of a word has its own FSRS state per skill (reading, listening, writing, speaking), so a word can be stable to recognize but still due to spell or say. [How Polidict uses FSRS-6](https://polidict.com/en/blog/fsrs-v6).
+- Imports Anki `.apkg` decks with their FSRS memory states, Memrise courses, CSV and text files.
+
+Available on the [web](https://polidict.com), [App Store](https://apps.apple.com/app/polidict/id6758307938) and [Google Play](https://play.google.com/store/apps/details?id=com.polidict). Free plan with limits; paid Plus plan.
+
 #### [RePoker](https://www.repokerpro.com/en)
 
   RePoker is a preflop trainer for No-Limit Texas Hold'em on iOS and Android. Players study complete 13x13 preflop range charts (opens, big-blind defense and 3-bet defense, including mixed strategies), then practice their own decisions in simulated hands. It is a study tool with no real-money play.
