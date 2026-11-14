@@ -462,6 +462,13 @@ Available on the [web](https://app.lexpad.app), [Google Play](https://play.googl
 - Reviews use two swipe responses: remembered (Good) or forgotten (Again).
 - [How Misu uses FSRS](https://misu.io/guides/fsrs/).
 
+#### [Nadaku](https://juw12.github.io/nadaku/)
+
+  Nadaku is a free, open-source ([source](https://github.com/juw12/nadaku)) web app for Indonesian speakers learning Mandarin. It covers all 5,363 HSK 3.0 words (levels 1–6) with Indonesian and English glosses, and installs as a PWA that works offline.
+
+- Its own JavaScript implementation of FSRS-4.5 with the default parameters and 90% desired retention.
+- After 50 reviews it fits one personal stability multiplier to the learner's review history by maximum likelihood.
+
 #### [Ordkort](https://ordkort.com)
 
   Ordkort is a free, open-source ([AGPL-3.0](https://github.com/silicq/ordkort)) web app for learning vocabulary in 60 languages. It offers ready word lists for 29 topics at CEFR levels A1–C1, written by AI and checked against dictionaries (the official ordbokene.no for Norwegian, Wiktionary for other languages), plus a learner's dictionary, a grammar book and a translator that explains every word. No account, no ads, no tracking: cards live in the browser, devices sync end-to-end encrypted, and it works offline as a PWA.
