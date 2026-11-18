@@ -14,13 +14,13 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
   - [Deprecated] Optimizer: [fsrs-optimizer-tiny](https://github.com/open-spaced-repetition/fsrs-optimizer-tiny)
 - Rust
   - Scheduler (v5): [rs-fsrs](https://github.com/open-spaced-repetition/rs-fsrs)
-  - Scheduler (v6) + Optimizer: [fsrs-rs](https://github.com/open-spaced-repetition/fsrs-rs)
+  - Scheduler (v6-v7) + Optimizer: [fsrs-rs](https://github.com/open-spaced-repetition/fsrs-rs)
     - Run in browsers: [fsrs-browser](https://github.com/open-spaced-repetition/fsrs-browser)
     - Optimizer for Node.js, browsers & Cloudflare Workers: [binding](https://github.com/open-spaced-repetition/ts-fsrs/tree/main/packages/binding)
 - TypeScript
   - Scheduler (v3-v7): [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs)
 - Go
-  - Scheduler (v5): [go-fsrs](https://github.com/open-spaced-repetition/go-fsrs)
+  - Scheduler (v5-v6): [go-fsrs](https://github.com/open-spaced-repetition/go-fsrs)
 - Java
   - Scheduler (v5): [rs-fsrs-java](https://github.com/open-spaced-repetition/rs-fsrs-java)
 - Scala
@@ -32,7 +32,7 @@ A curated list of awesome FSRS implementations, papers and resources. Feel free 
 - Dart
   - Scheduler (v4.5): [dart-fsrs](https://github.com/open-spaced-repetition/dart-fsrs)
 - Swift
-  - Scheduler (v5): [swift-fsrs](https://github.com/open-spaced-repetition/swift-fsrs)
+  - Scheduler (v5-v6): [swift-fsrs](https://github.com/open-spaced-repetition/swift-fsrs)
 - Clojure/ClojureScript
   - Scheduler (v4): [cljc-fsrs](https://github.com/open-spaced-repetition/cljc-fsrs)
 - Ruby
