@@ -445,6 +445,16 @@ Available on the [web](https://app.lexpad.app), [Google Play](https://play.googl
 
   LinGoat uses [py-fsrs](https://github.com/open-spaced-repetition/py-fsrs) (FSRS-6) for scheduling.
 
+#### [LingoDew](https://www.lingodew.com/?utm_source=awesome-fsrs&utm_medium=listing&utm_campaign=B1)
+
+LingoDew teaches English and Japanese with real YouTube videos. Subtitles are aligned to the audio word by word; tapping a word shows its meaning and saves it with the sentence and a link back to that moment in the video, and saved words are reviewed with FSRS.
+
+- Uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) 5.4.1 with FSRS-6 default weights, 90% desired retention, no fuzz, and a single 1-minute learning and relearning step, on the server and in the browser.
+- The Android and iOS app runs a hand-ported Dart copy of the same ts-fsrs code (including its 8-decimal rounding), checked against golden vectors, so replaying the same review log on any device or on the server gives an identical card state.
+- A looked-up word becomes reviewable after a second lookup or after 2 days; grades are Forgot, Hard, Remembered and Easy.
+
+Available on the [web](https://www.lingodew.com/?utm_source=awesome-fsrs&utm_medium=listing&utm_campaign=B1), [App Store](https://apps.apple.com/app/lingodew/id6806777009) and [Google Play](https://play.google.com/store/apps/details?id=com.lingodew.app). Every video plays free with no account; a paid Pro plan unlocks lookups and review across the whole library.
+
 #### [MemPro](https://mempro.me)
 
   MemPro is a web app for learning programming with spaced repetition. Besides concept cards, it has code exercises: you write C++, Python, Rust, TypeScript or Zig in the browser, and a sandbox runs tests against your solution. You then rate how well you remembered the card.
