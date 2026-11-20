@@ -514,6 +514,13 @@ Available on [App Store](https://apps.apple.com/app/id6749474456) and [Google Pl
 
   Rhythm Word implements FSRS-4.5 for intelligent review scheduling.
 
+#### [Schwanki](https://schwankiapp.com/anki-alternative?ref=awesome-fsrs)
+
+  Schwanki is a web flashcard app (installable PWA) for language learners that shows due cards in a full-screen swipe feed and stops when they run out. It imports Anki `.apkg` and `.colpkg` files with media and review history, so imported cards keep their place in the schedule instead of resetting to new. For words that won't stick it can add an example sentence, a picture or native audio, and it can turn class notes, Google Docs and PDFs into cards. Decks, reviews and imports are free; AI pictures and audio use pay-as-you-go credits or your own API keys.
+
+- Uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) 4.7 (FSRS-5) with the default parameters and fuzz. No optimizer runs in the app.
+- On import, each card's FSRS state is rebuilt by replaying its Anki review log; cards exported without history get an estimate from their last interval.
+
 #### [Smort](https://getsmort.com)
 
   Smort is an iPhone app for language learners who understand more than they can say. You talk out loud with Smort, an AI conversation partner, keep the words you want from each chat as flashcards, and answer them out loud from memory. It also imports Anki `.apkg` decks, with the study progress it supports.
