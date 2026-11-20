@@ -180,14 +180,13 @@ Klappa is a free flashcard app for the web and macOS, built by a dental student 
 
 - Uses [fsrs-rs](https://github.com/open-spaced-repetition/fsrs-rs) for FSRS-6 scheduling.
 
-#### [Quanta](https://quanta-study.de)
+#### [Quanta Study](https://quanta-study.de/en)
 
-  Quanta is an AI-powered flashcard and exam platform for German-speaking students (DACH region). It combines citation-first AI generation — where every card links to verifiable academic sources (Google Scholar, Wikipedia, textbooks) — with Bloom taxonomy control, LaTeX rendering, and MC quiz generation following Haladyna & Downing distractor guidelines.
+  Quanta Study is a browser-based flashcard and exam-preparation app. Learners can create cards manually or use AI-assisted authoring from study documents. Source references help learners check generated material; the app also supports LaTeX and multiple-choice quizzes.
 
-- Quanta uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) for native FSRS-6 scheduling across all review modes (classic, endless, exam simulation).
-- AI generates flashcards from topic, PDF, photo, or URL with mandatory source declaration before card creation (≥0.90 confidence threshold).
-- Includes interactive Bloom taxonomy pyramid, Feynman method AI tutor, and 350+ German study programs with context-aware generation.
-- Free tier includes FSRS-6 spaced repetition forever (50 AI cards/month). Pro €8/mo, Evo €14/mo with student discounts.
+- Uses [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) for FSRS-6 scheduling. Three review ratings map to Again, Hard and Good; the scheduler is configured with 90% desired retention and interval fuzzing.
+- [Imports question-and-answer text](https://quanta-study.de/en/import-flashcards) from Anki `.apkg`, CSV, TSV and TXT files as new cards with a fresh Quanta review schedule.
+- The free Starter plan includes manual card creation, supported imports and FSRS reviews within topic and card limits. Paid plans expand AI usage and study features.
 
 #### [Read Frog](https://www.readfrog.app/?utm_source=github&utm_medium=readme&utm_campaign=awesome-fsrs&utm_content=en)
 
