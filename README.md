@@ -358,6 +358,16 @@ Available on [App Store](https://apps.apple.com/app/id6793255945) and [Google Pl
 
   Chessbook overhauled its spaced repetition system [using FSRS-4.5](https://x.com/chessbookcom/status/1805137108991946775).
 
+#### [Fluentish](https://fluentish.co/)
+
+Fluentish is a language-learning app for iPhone, iPad and Android, built to replace doomscrolling: an endless, adaptive feed of short exercises instead of lessons to finish. It has seven learning pairs: English to Spanish, Italian, French, German or Modern Standard Arabic, and Spanish or French to English.
+
+- Uses its own Dart port of [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) 4.7.1 (FSRS-5) with the default weights, 90% desired retention, short-term steps on and fuzz off, cross-validated against ts-fsrs output to 1e-6.
+- No rating buttons: a wrong answer is `Again`, and a correct one is `Hard`, `Good` or `Easy` by response time, measured against that card's typical answer time and the learner's own speed.
+- Reviews are mixed into the same feed as new words, so there is no separate review queue.
+
+Available on [App Store](https://apps.apple.com/app/apple-store/id6795129722?pt=128972566&ct=awesome-fsrs&mt=8) and [Google Play](https://play.google.com/store/apps/details?id=co.fluentish.app&referrer=utm_source%3Dawesome-fsrs%26utm_medium%3Dlisting).
+
 #### [Gnoseed](https://gnoseed.com)
 
   Gnoseed is a web flashcard app (installable as a PWA) for engineers studying DevOps, AI&LLM, Cloud, Security and certification topics. It has more than 6,600+ ready-made multiple-choice cards in 70+ decks, plus open-answer interview decks. Free; it works offline and without an account, and an optional Google sign-in syncs progress across devices.
