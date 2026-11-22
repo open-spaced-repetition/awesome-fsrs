@@ -358,6 +358,15 @@ Available on [App Store](https://apps.apple.com/app/id6793255945) and [Google Pl
 
   Chessbook overhauled its spaced repetition system [using FSRS-4.5](https://x.com/chessbookcom/status/1805137108991946775).
 
+#### [flangu](https://flangu.app/?utm_source=awesome-fsrs&utm_medium=listing)
+
+  flangu is a flashcard app for language learners on iPhone and Android. You translate a word or phrase once, in any pair of 31 languages, and flangu builds the card: pronunciation, meanings and example sentences. Unlimited cards, translations and reviews are free with no ads; an optional Pro subscription adds images, a Personal Tutor, statistics and FSRS optimisation.
+
+- Schedules reviews on the device with [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) 5.2.3 (FSRS-6), so reviews work offline. Desired retention is 90% by default and can be set from 70% to 99% per deck; fuzz is on.
+- Pro fits personal parameters on the server with the [py-fsrs](https://github.com/open-spaced-repetition/py-fsrs) 6.3.0 optimizer once a learner has 512 inter-day reviews. It refits after the review count grows by 20% and keeps the new parameters only if they predict the learner's reviews better. [How flangu uses FSRS](https://flangu.app/docs/app-settings/fsrs-algorithm-settings/).
+
+Available on the [App Store](https://apps.apple.com/app/id6804247495?pt=129244073&ct=awesome-fsrs&mt=8) and [Google Play](https://play.google.com/store/apps/details?id=app.flangu&referrer=utm_source%3Dawesome-fsrs).
+
 #### [Fluentish](https://fluentish.co/)
 
 Fluentish is a language-learning app for iPhone, iPad and Android, built to replace doomscrolling: an endless, adaptive feed of short exercises instead of lessons to finish. It has seven learning pairs: English to Spanish, Italian, French, German or Modern Standard Arabic, and Spanish or French to English.
