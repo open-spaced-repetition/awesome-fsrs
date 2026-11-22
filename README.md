@@ -336,6 +336,10 @@ Native incremental reading with integrated FSRS scheduling, powered by [ts-fsrs]
 - Speech-based JLPT grammar flashcard reviews: translate English prompts into Japanese aloud, applying grammar points in context while reinforcing memory through speech.
 - [Speech-based Japanese verb conjugation practice](https://www.youtube.com/watch?v=6ehilb5dzyc) with instant feedback to strengthen active recall of verb forms and speaking confidence.
 
+#### [Atheno](https://atheno.app/)
+Atheno is a web app for learning vocabulary in many languages, with AI-assisted cards, pronunciation audio and free one-page grammar maps. Free plan available.
+- Its own PHP implementation of FSRS-6, following py-fsrs v6.3.0, with the default parameters and 90% desired retention. FSRS-6 replaced SM-2 as Atheno's production scheduler in October 2026.
+
 #### [BiliMind Desktop](https://github.com/Odilient/bilimind-desktop)
 
 BiliMind Desktop is an open-source (AGPL-3.0) app that turns a folder of lecture slides, past exam papers or notes into a course: lessons, quizzes checked against the source files, a study plan and an Anki-importable deck. Each course's review schedule is dated back from the exam and exported as an `.ics` calendar; the course page shows what is due today and reschedules locally as you answer.
