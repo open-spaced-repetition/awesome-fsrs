@@ -180,6 +180,15 @@ Klappa is a free flashcard app for the web and macOS, built by a dental student 
 
 - Uses [fsrs-rs](https://github.com/open-spaced-repetition/fsrs-rs) for FSRS-6 scheduling.
 
+#### [Pomki](https://pomki.app/en/)
+
+Pomki is a spaced repetition flashcard app for students, on iPhone, iPad and Android, with a web app for the computer. Reviews open and save offline, and sync on their own when the network comes back.
+
+- FSRS-6 via [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs), the same scheduling code on the device and on the server; the parameters are optimized from your review history with [@open-spaced-repetition/binding](https://github.com/open-spaced-repetition/ts-fsrs/tree/main/packages/binding), or pasted from Anki®.
+- Exams: give one a date and its courses, and new cards are spread so everything is introduced before the exam; a card that would come back after the exam day comes back before it.
+- Imports Anki® `.apkg` decks with media and review history, and cards written as text; exports `.apkg` with the schedule at any time.
+- 30-day free trial, then a subscription; the export stays free.
+
 #### [Quanta Study](https://quanta-study.de/en)
 
   Quanta Study is a browser-based flashcard and exam-preparation app. Learners can create cards manually or use AI-assisted authoring from study documents. Source references help learners check generated material; the app also supports LaTeX and multiple-choice quizzes.
