@@ -257,6 +257,13 @@ Pomki is a spaced repetition flashcard app for students, on iPhone, iPad and And
   - FSRS-6 with the default parameters and 90% desired retention. No optimizer runs in the app.
   - Uses its own Swift port of [py-fsrs](https://github.com/open-spaced-repetition/py-fsrs), checked against py-fsrs's reference review vectors in its unit tests.
 
+#### [Keepfold](https://github.com/alenissacsam-2/keepfold)
+
+  Keepfold is a free, open-source (MIT) Windows 10 and 11 app, in beta, that keeps one memory for AI apps such as Claude, Cursor and Codex as plain Markdown notes in a folder you pick; the folder also opens as an Obsidian vault. Its optional study tools plan a daily review of the concepts you learn and run quizzes through Claude.
+
+  - FSRS-6 via [py-fsrs](https://github.com/open-spaced-repetition/py-fsrs) (the `fsrs` package, v6) with the default parameters. Desired retention is 90% for concepts with a test coming up and 85% otherwise. No optimizer runs.
+  - Memory states are recomputed from an append-only review log every time, so cancelling a wrong grade recomputes everything.
+
 #### [Logseq](https://logseq.com/)
 
   A privacy-first, open-source platform for knowledge management and collaboration. It focuses on privacy, longevity, and user control.
