@@ -263,6 +263,13 @@ Pomki is a spaced repetition flashcard app for students, on iPhone, iPad and And
 
   Logseq uses [cljc-fsrs](https://github.com/open-spaced-repetition/cljc-fsrs) in its database version.
 
+#### [Mena](https://apps.apple.com/app/id6801832470?pt=127899846&ct=awesomefsrs_mena)
+
+  Mena is a visual note-taking app for iPhone, iPad and Mac. Notes, mind maps, PDFs, images and audio sit on an infinite canvas, and any board can become a flashcard deck. Cards can be drafted from notes on the device. Boards sync through the user's own iCloud, with no account. Free to download, with an optional Pro upgrade (monthly, yearly or lifetime).
+
+  - FSRS-5 with the published default parameters and 90% requested retention. No optimizer runs in the app.
+  - Uses its own Swift implementation of the FSRS-5 formulas.
+
 #### [Obsidian](https://obsidian.md/)
 
   A personal notes, journaling, knowledge base, and project management application that allows the user to easily visualize relationships between information in graph form. Connect your notes via hyperlinks and install many community plugins made for Obsidian.
