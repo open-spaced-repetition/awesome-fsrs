@@ -493,6 +493,15 @@ LingoDew teaches English and Japanese with real YouTube videos. Subtitles are al
 
 Available on the [web](https://www.lingodew.com/?utm_source=awesome-fsrs&utm_medium=listing&utm_campaign=B1), [App Store](https://apps.apple.com/app/lingodew/id6806777009) and [Google Play](https://play.google.com/store/apps/details?id=com.lingodew.app). Every video plays free with no account; a paid Pro plan unlocks lookups and review across the whole library.
 
+#### [Lockabulary](https://arturwitkowski.com/lockabulary/)
+
+Lockabulary teaches European Portuguese, Spanish (Spain) and French vocabulary by interrupting you: every so often the Mac blurs the screen for a short quiz, and on iPhone the apps you pick stay locked until you answer. About 2,500 to 3,300 frequent words per language, with audio and example sentences.
+
+- Native Swift implementation of FSRS-4.5 with default parameters and 90% desired retention, after a few same-day learning steps for new words.
+- Two grades, again and good, taken from the answer itself, so there are no grading buttons. An answer picked from options moves stability half as far as a typed one.
+- Interval fuzz is seeded by the card, so replaying the same answers on Mac and iPhone gives the same schedule.
+- macOS 26 and iOS 26. Paid app with a 14-day free trial.
+
 #### [MemPro](https://mempro.me)
 
   MemPro is a web app for learning programming with spaced repetition. Besides concept cards, it has code exercises: you write C++, Python, Rust, TypeScript or Zig in the browser, and a sandbox runs tests against your solution. You then rate how well you remembered the card.
