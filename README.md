@@ -250,6 +250,15 @@ Pomki is a spaced repetition flashcard app for students, on iPhone, iPad and And
 
 ### Note-taking
 
+#### [Conspecto](https://conspecto.org/)
+
+  Conspecto is a web study and note-taking app that turns PDFs, YouTube videos and EPUB books into structured study notes and learning paths, or lets you write notes directly with equations, drawings and interactive figures. Notes are split into the individual ideas ("points") they teach and reviewed with generated questions; you can also create inline flashcards from any passage. Manual flashcards and FSRS flashcard review are free with 10 AI credits ("Books") per month; optional Scholar and Laureate plans add 300 and 800 monthly credits.
+
+  - Uses FSRS-6 via [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) 5.4.2 with the 21 default parameters and no per-user optimizer.
+  - Desired retention defaults to 90% and is configurable from 70% to 99%, with a maximum interval of 36,500 days.
+  - Note review schedules each taught point independently (mapping graded answers: met to Good, partly met to Hard, missed to Again) and marks a note due when the mean predicted recall of its points reaches the desired retention, with separate rechecks for isolated missed points; inline flashcards use standard 4-button ratings (Again, Hard, Good, Easy).
+  - Technical write-up on the per-point scheduler: [AI study notes with FSRS](https://conspecto.org/blog/ai-study-notes-with-fsrs).
+
 #### [CuaderNote](https://cuadernote.com/)
 
   CuaderNote is a native notes and study app for Mac, iPhone and iPad. It combines a block editor, a PDF, EPUB and web article reader, and a freehand notebook with Apple Pencil support. Notes can be turned into flashcards, and highlights from PDFs and EPUBs go into the same review queue. Cards are stored on the device and sync through iCloud, so reviews work offline. The current version is free on the App Store, with no in-app purchases or subscriptions.
