@@ -248,6 +248,15 @@ Pomki is a spaced repetition flashcard app for students, on iPhone, iPad and And
 - FSRS-6 (a Swift port of py-fsrs v6.3.2) is the only scheduler, with the default parameters.
 - A set can have a test date: reviews are capped at halfway to the test so the gaps shrink as it gets closer, and the app shows readiness as the set's average predicted recall.
 
+#### [Terramentor](https://github.com/ValeraZSD/terramentor)
+
+  Terramentor is a free, open-source (AGPL-3.0) AI tutor for Windows, macOS and Linux, also reachable from a phone's browser. The model you connect (a local one through Ollama, or a hosted one under your own key) writes a course, its flashcards included, from a goal or from your own PDFs, notes, web pages and YouTube videos; the app plans the course to your deadline and asks you to prove each topic in a mastery check. There is no account: the library is a local SQLite file. Anki `.apkg` decks can be imported and exported.
+
+- FSRS-7 through [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) 6.0 (`FSRS7Algorithm`), starting from the default 34-parameter vector.
+- Desired retention is 90% by default and can be set per course (80, 85, 90 or 95%).
+- An optimizer, run from the app, fits the parameters to your own review log (at least 100 day-level reviews). It uses ts-fsrs's own forward model, pulls the fit toward the defaults, and keeps it only when it beats the defaults on the last 20% of reviews by date.
+- Anki imports bring their review history, so the fit can use reviews done in Anki.
+
 ### Note-taking
 
 #### [CuaderNote](https://cuadernote.com/)
