@@ -189,6 +189,12 @@ Pomki is a spaced repetition flashcard app for students, on iPhone, iPad and And
 - Imports Anki® `.apkg` decks with media and review history, and cards written as text; exports `.apkg` with the schedule at any time.
 - 30-day free trial, then a subscription; the export stays free.
 
+#### [prettysmart](https://pretty-smart.app)
+
+  prettysmart (formerly SpacedCards) is a flashcard app for iPhone and iPad that locks the apps you pick until you review a few due cards. AI writes the cards from notes, photos or a PDF, and you can study offline.
+
+  prettysmart uses [dart-fsrs](https://github.com/open-spaced-repetition/dart-fsrs).
+
 #### [Quanta Study](https://quanta-study.de/en)
 
   Quanta Study is a browser-based flashcard and exam-preparation app. Learners can create cards manually or use AI-assisted authoring from study documents. Source references help learners check generated material; the app also supports LaTeX and multiple-choice quizzes.
@@ -219,13 +225,6 @@ Pomki is a spaced repetition flashcard app for students, on iPhone, iPad and And
   Revu is a local-first spaced repetition app for macOS built with SwiftUI. It features a Notion-inspired interface, Anki import (.apkg/.colpkg), study guides, exams, and workload forecasting.
 
   Revu uses [swift-fsrs](https://github.com/open-spaced-repetition/swift-fsrs).
-
-#### [SpacedCards](https://spacedcards.app)
-
-  SpacedCards is an iOS flashcard app which forces students to review cards to unlock scrolltime. It works offline, is customizable & has AI for generating cards (images, audio or PDFs). 
-
-  SpacedCards uses [dart-fsrs]([https://github.com/open-spaced-repetition/ts-fsrs](https://github.com/open-spaced-repetition/dart-fsrs)).
-  
 
 #### [spacedrep](https://github.com/wpwilson10/spacedrep)
 
