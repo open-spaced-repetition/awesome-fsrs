@@ -379,6 +379,12 @@ BrioVocab is a French vocabulary app for CEFR A1–B2 learners, built around FSR
 
 Available on [App Store](https://apps.apple.com/app/id6793255945) and [Google Play](https://play.google.com/store/apps/details?id=com.briovocab.googleplay.app&referrer=awesome-fsrs).
 
+#### [Calculus Daily](https://github.com/RicardoeeE/calculus-daily)
+
+Calculus Daily is a free, open-source (MIT), offline practice app for derivatives, integrals, partial derivatives and ODEs. Every card is a parametric exercise family, so each review is a new variant; answers are checked symbolically with SymPy and graded from facts (correct or not, hints used, time, confidence) instead of self-assessment.
+
+- Uses [py-fsrs](https://github.com/open-spaced-repetition/py-fsrs) 6.3.2 with 90% desired retention.
+
 #### [Chessbook](https://chessbook.com/)
 
   Mobile and web chess study application that combines multiple resources from YouTube, Lichess, ChessBase, and books to create a custom personal chess repertoire.
